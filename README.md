@@ -1,2 +1,1 @@
-# DeepImageJ-web
 # deepimagej
