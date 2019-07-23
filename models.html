@@ -1,0 +1,217 @@
+<!DOCTYPE HTML>
+<!--
+	Theory by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html>
+	<head>
+		<title>Deep ImageJ</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+	</head>
+	<body class="subpage">
+		<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="index.html" class="logo">Deep ImageJ</a>
+					<nav id="nav">
+						<a href="index.html">Home</a>
+						<a href="download.html">Download</a>
+						<a href="models.html">Models</a>
+						<a href="contribute.html">Contribute</a>
+						<a href="tutorials.html">Tutorials</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+		<!-- models -->
+			<section id="three" class="wrapper">
+				<div class="inner">
+					<header class="align-center">
+						<h2>Trained model</h2>
+						<p>Unzip the zip file and store it into the folder <em>models</em> of ImageJ. If it is a first-time use, create the folder models inside ImageJ (<em>".../ImageJ/models/"</em>). </p>
+						<!--
+						<nav id="nav">
+							<a href="models.html">Super-resolution</a>
+							<a href="models.html">Image enhancement</a>
+							<a href="models.html">Segmentation</a>
+							<a href="models.html">Image restoration</a>
+							<a href="models.html">Others</a>
+						</nav>
+						-->
+					</header>
+					<div class="flex flex-2">
+					<!-- Ozcan UCLA lab kidney -->
+						<article>
+<!--							<div class="image fit">
+								<img src="models/kidney/exampleImage.png" alt="Pic 01" />
+							</div>
+							<div class="image fit">
+								<img src="models/kidney/exampleImage.png" alt="Pic 01" />
+							</div>
+-->
+							<header>
+								<h3><a href="https://drive.google.com/file/d/1yFFJRv92O4sLutjjsalb4Ax50acvwGy6/view?usp=sharing">Jones stain (kidney)</a></h3>		
+								<div class="row">
+								  <div class="column column-2">
+									<img src="models/kidney/exampleImage-1.png" alt="original" style="width:100%">
+									<p>Original image</p>
+								  </div>
+								  <div class="column column-2">
+									<img src="models/kidney/resultImage-1.png" alt="c1" style="width:100%">
+									<p>Output image</p>
+								  </div>
+								</div>												
+								<h5> <em>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</em>, Nature biomedical engineering, volume 3, 2019.</h5>
+								<h6>Yair Rivenson, Hongda Wang, Zhensong Wei, Kevin de Haan, Yibo Zhang, Yichen Wu, Harun Günaydın, Jonathan E. Zuckerman, Thomas Chong, Anthony E. Sisk, Lindsey M. Westbrook, W. Dean Wallace and Aydogan Ozcan</h6>
+								<footer>
+									<a href="https://drive.google.com/file/d/1yFFJRv92O4sLutjjsalb4Ax50acvwGy6/view?usp=sharing" class="button special fit small">Jones stain (kidney)</a>
+								</footer>
+							</header>
+						</article>
+						<!-- CBS deep model - microtubules -->
+						<article>
+						<header>
+							<h3><a href="https://drive.google.com/file/d/1WyulPvOHi1wOgxFjSKLkMQM8La98Tx1W/view?usp=sharing">CARE: Deconvolution (Microtubules)</a></h3>
+							<div class="row">
+							  <div class="column column-2">
+								<div class="img-magnifier-container">
+									<img id="tubulin1" src="models/tubulin/exampleImage-1.png" alt="result" style="width:100%">
+									<p>Original image</p>
+								</div>
+							  </div>
+							  <div class="column column-2">
+								<div class="img-magnifier-container">
+									<img id="tubulin2" src="models/tubulin/resultImage-1.png" alt="result" style="width:100%">
+									<p>Output image</p>
+								</div>
+							  </div>
+							</div>							
+								<h5><em>Content-aware image restoration: pushing the limits of fluorescence microscopy</em>, Nature Methods, volume 16, 2018.</h5>
+								<h6>Martin Weigert, Uwe Schmidt, Tobias Boothe, Andreas Müller, Alexandr Dibrov, Akanksha Jain, Benjamin Wilhelm, Deborah Schmidt, Coleman Broaddus, Siân Culley, Mauricio Rocha-Martins, Fabián Segovia-Miranda, Caren Norden, Ricardo Henriques, Marino Zerial, Michele Solimena, Jochen Rink, Pavel Tomancak, Loic Royer, Florian Jug and Eugene W. Myers</h6>
+								<footer>
+									<a href="https://drive.google.com/file/d/1WyulPvOHi1wOgxFjSKLkMQM8La98Tx1W/view?usp=sharing" class="button special fit small">CARE: Deconvolution (Microtubules)</a>
+								</footer>
+							</header>						
+							
+						</article>
+						<!-- Ozcan UCLA lab liver -->
+						<article>
+							<header>
+								<h3><a href="https://drive.google.com/file/d/1jBPSvKDX8csMAPL7N66Kcg3ejfP74fry/view?usp=sharing">Masson’s trichrome stain(liver) - MT3</a></h3>
+							<div class="row">
+							  <div class="column column-2">
+								<img src="models/liver/exampleImage-1.png" alt="original" style="width:100%">
+								<p>Original image</p>
+							  </div>
+							  <div class="column column-2">
+								<img src="models/liver/resultImage-1.png" alt="c1" style="width:100%">
+								<p>Output image</p>
+							  </div>
+							</div>							
+								<h5><em>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</em>, Nature biomedical engineering, volume 3, 2019.</h5>
+								<h6>Yair Rivenson, Hongda Wang, Zhensong Wei, Kevin de Haan, Yibo Zhang, Yichen Wu, Harun Günaydın, Jonathan E. Zuckerman, Thomas Chong, Anthony E. Sisk, Lindsey M. Westbrook, W. Dean Wallace and Aydogan Ozcan</h6>
+								<footer>
+									<a href="https://drive.google.com/file/d/1jBPSvKDX8csMAPL7N66Kcg3ejfP74fry/view?usp=sharing" class="button special fit small">Masson’s trichrome stain(liver) - MT3</a>
+								</footer>
+							</header>
+						</article>
+						<!-- Exosomes -->
+						<article>
+							<header>
+								<h3><a href="#">Fully Residual U-net - TEM</a></h3>						
+							<div class="row">
+							  <div class="column column-2">
+								<img src="models/frunet/18-1.png" alt="a" style="width:100%">
+								<p>Original image</p>
+							  </div>
+							  <div class="column column-2">
+								<img src="models/frunet/seg_18-1.png" alt="b" style="width:100%">
+								<p>Output image</p>
+							  </div>
+							</div>
+								<h5><em>Deep-Learning-Based Segmentation of Small Extracellular Vesicles in Transmission Electron Microscopy Images</em>, submitted, 2019.</h5>
+								<h6>Estibaliz Gómez-de-Mariscal, Martin Maska, Anna Kotrbová, Vendula Pospíchalová, Pavel Matula and Arrate Muñoz-Barrutia</h6>
+								<footer>
+									<a href="#" class="button special fit small">Fully Residual U-net - TEM</a>
+								</footer>
+							</header>
+						</article>
+						<!-- Ozcan UCLA widefield DAPI -->
+						<article>
+						<header>
+								<h3><a href="https://drive.google.com/file/d/1cov5PPb6BBOzv4IzT1kJhffuqFbLnYDA/view?usp=sharing">Wide-field DAPI</a></h3>
+							<div class="row">
+							  <div class="column column-2">
+								<div class="img-magnifier-container">
+									<img id="DAPI1" src="models/widefield_dapi/exampleImage-1.png" alt="result" style="width:100%">
+									<p>Original image</p>
+								</div>
+							  </div>
+							  <div class="column column-2">
+								<div class="img-magnifier-container">
+									<img id="DAPI2" src="models/widefield_dapi/resultImage-1.png" alt="result" style="width:100%">
+									<p>Output image</p>
+								</div>
+							  </div>
+							</div>
+								<h5><em>Deep learning enables cross-modality super-resolution in fluorescence microscopy</em>, Nature Methods, volume 16, 2019.</h5>
+								<h6>Hongda Wang, Yair Rivenson, Yiyin Jin, Zhensong Wei, Ronald Gao, Harun Günaydın, Laurent A. Bentolila, Comert Kural and Aydogan Ozcan</h6>
+								<footer>
+									<a href="https://drive.google.com/file/d/1cov5PPb6BBOzv4IzT1kJhffuqFbLnYDA/view?usp=sharing" class="button special fit small">Wide-field DAPI</a>
+								</footer>
+							</header>
+							
+							
+						</article>
+						<!-- Ozcan UCLA widefield FITC -->
+						<article>
+						<header>
+							<h3><a href="https://drive.google.com/file/d/1KdYso33lsOGdU2yJaVat82LmLs2Lrapf/view?usp=sharing">Wide-field FITC</a></h3>
+							<div class="row">
+							  <div class="column column-2">
+								<div class="img-magnifier-container">
+									<img id="myimage1" src="models/widefield_fitc/exampleImage-1.png" alt="result" style="width:100%">
+									<p>Original image</p>
+								</div>
+							  </div>
+							  <div class="column column-2">
+								<div class="img-magnifier-container">
+									<img id="myimage" src="models/widefield_fitc/resultImage-1.png" alt="result" style="width:100%">
+									<p>Output image</p>
+								</div>
+							  </div>
+							</div>
+								<h5><em>Deep learning enables cross-modality super-resolution in fluorescence microscopy</em>, Nature Methods, volume 16, 2019.</h5>
+								<h6>Hongda Wang, Yair Rivenson, Yiyin Jin, Zhensong Wei, Ronald Gao, Harun Günaydın, Laurent A. Bentolila, Comert Kural and Aydogan Ozcan</h6>
+								<footer>
+									<a href="https://drive.google.com/file/d/1KdYso33lsOGdU2yJaVat82LmLs2Lrapf/view?usp=sharing" class="button special fit small">Wide-field FITC</a>
+								</footer>
+							</header>							
+						</article>
+					</div>
+				</div>
+			</section>
+
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="inner">
+				<header class="align-center">	
+					<a href="http://bigwww.epfl.ch/"><img  src="images/epfl_logo.gif" title="logo-epfl" /></a>
+					<a href="https://image.hggm.es/"><img  src="images/uc3m_logo.jpg" title="logo-uc3m" style="width:10%" /></a>						
+				</header>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
