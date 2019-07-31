@@ -1611,7 +1611,7 @@
 		font-family: "Raleway", Arial, Helvetica, sans-serif; /*"Source Sans Pro"*/
 		font-size: 13pt;
 		font-weight: 300;
-		line-height: 1.65;
+		line-height: 1.35;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1656,12 +1656,15 @@
 
 	a {
 		color: "blue"; /*#5385c1;*/
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
+		color: "green"; /*#5385c1;*/
 			text-decoration: none;
+			
 		}
+
 
 	strong, b {
 		color: #555;
@@ -2516,10 +2519,7 @@
 			border-right: 0;
 		}
 
-			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(144, 144, 144, 0.075);
-			}
-
+			
 		table td {
 			padding: 0.75em 0.75em;
 		}
