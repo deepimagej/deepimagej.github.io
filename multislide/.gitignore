@@ -1,5 +1,4 @@
 
-*.css
 
 *.jpg
 
@@ -10,8 +9,6 @@
 *.ico
 
 *.html
-
-js/custom.js
 
 *.less
 
