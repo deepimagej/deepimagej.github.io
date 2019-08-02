@@ -2788,7 +2788,7 @@
 	#header {
 		color: #000000; /*Default: #d4e0ef; header's link font color*/
 		cursor: default;
-		height: 44px;/*Default: 3.25em; header's link height*/
+		height: 3.25em;/*Header's link height*/
 		left: 0;
 		line-height: 44px;
 		position: absolute;
