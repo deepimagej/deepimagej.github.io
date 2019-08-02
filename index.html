@@ -10,6 +10,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="multislide/multislide.css" />
 	</head>
 	<body>
 
@@ -20,7 +21,7 @@
 					<nav id="nav">
 						<a href="index.html" style="color:#fff">Home</a>
 						<a href="download.html" style="color:#fff">Download</a>
-						<a href="models.html" style="color:#fff">Model packages</a>
+						<a href="models.html" style="color:#fff">Bundled Models</a>
 						<a href="contribute.html" style="color:#fff">Contribute</a>
 						<a href="tutorials.html" style="color:#fff">Tutorials</a>
 					</nav>
@@ -37,54 +38,129 @@
 
 		<!-- One -->
 			<section id="one" class="wrapper">
+
+		<!-- Slider -->
+			<div class="inner" style="border-top:1px dotted black; border-bottom:1px dotted black;">
+			<div id="mixedSlider">
+                 <div class="MS-content" style="background-color:white">
+                       <div class="item">
+                            <div class="imgTitle">
+                                <h2 class="blogTitle" style="font-size:20px">CARE Tubulins</h2>
+                                <img src="slider/image1.jpeg" alt="" />
+                            </div>
+                            <p>A short description that explain the main goal / task / modality / Reference</p>
+                           <a href="#">Bundled model</a>
+                        </div>
+                        <div class="item">
+                            <div class="imgTitle">
+                                <h2 class="blogTitle" style="font-size:20px">Hela Cell Segm</h2>
+                                <img src="slider/image2.jpeg" alt="" />
+                            </div>
+                            <p>A short description / task / modality</p>
+                            <a href="#">Bundled model</a>
+                        </div>
+                        <div class="item">
+                            <div class="imgTitle">
+                                <h2 class="blogTitle" style="font-size:20px">Nature</h2>
+                                <img src="slider/image3.jpeg" alt="" />
+                            </div>
+                            <p>A short description / task / modality</p>
+                            <a href="#">Bundled model</a>
+                        </div>
+                        <div class="item">
+                            <div class="imgTitle">
+                                <h2 class="blogTitle" style="font-size:20px">People</h2>
+                                <img src="slider/image4.jpeg" alt="" />
+                            </div>
+                            <p>A short description / task / modality</p>
+                            <a href="#">Bundled model</a>
+                        </div>
+                        <div class="item">
+                            <div class="imgTitle">
+                                <h2 class="blogTitle" style="font-size:20px">Tech</h2>
+                                <img src="slider/image5.jpeg" alt="" />
+                            </div>
+                            <p>A short description / task / modality</p>
+                            <a href="#">Bundled model</a>
+                        </div>
+                       
+                    </div>
+                    <div class="MS-controls">
+                        <button class="MS-left"><p aria-hidden="true" style="color:black"><</i></button>
+                        <button class="MS-right"><p aria-hidden="true" style="color:black">></i></button>
+                    </div>
+                </div>
+		</div>
+			</div>
 				<div class="inner">
-					<h2 id="content" style="font-weight: 300">General description</h2>
-					<p>DeepImageJ is a user-friendly plugin that enables the use of a variety of pre-trained deep learning (DL) models in ImageJ. The plugin acts as a software layer between TensorFlow and ImageJ, hence bridging the gap between sophisticated DL technology and standard life-science applications. </p>
-					<p>Designed like a typical ImageJ plugin, DeepImageJ runs on a standard CPU-based computer and does not require any DL expertise. </p>
-					<p>A first selection of state-of-the-art models from various groups has been made available in an <a href="models.html">online database</a>. Beyond its direct use, we expect DeepImageJ to contribute to the spread and validation of DL models in life-science applications.</p>
+					<p style="margin-top:20px">
+					<a href="download.html">DeepImageJ</a> is a user-friendly plugin that enables the use of a variety of pre-trained 
+					deep learning models in ImageJ. The plugin bridges the gap between sophisticated between
+					deep learning and standard life-science applications. 
+					DeepImageJ runs on a standard CPU-based computer and does not require any DL expertise. 
+					The concept is to bundle the TensorFlow model to 
+					additional information in order to be use in ImageJ/Fiji as a standard plugin.
+					</p>
+					<p style="margin-top:20px">
+					A first selection of state-of-the-art models from various groups has been made 
+					available in an <a href="models.html">online database</a>. 
+					Beyond its direct use, we expect DeepImageJ to contribute to the spread and 
+					validation of DL models in life-science applications.
+					</p>
 
 					<div class="flex flex-4">
 						<article>
 							<header>
-								<h4><a href="download.html" class="button fit">Download DeepImageJ</a></h4>
+								<h4 style="width:240px"><a href="download.html" class="button fit">Download Plugin</a></h4>
 							</header>
 						</article>
 						<article>
 							<header>
-								<h4><a href="models.html" class="button fit">Look for a trained model</a></h4>
+								<h4 style="width:240px"><a href="models.html" class="button fit">Search a model</a></h4>
 							</header>
 						</article>
 						<article>
 							<header>
-								<h4><a href="contribute.html" class="button fit">Contribute with your trained model</a></h4>
+								<h4 style="width:240px"><a href="contribute.html" class="button fit">Contribute</a></h4>
 							</header>
 						</article>
 						<article>
 							<header>
-								<h4><a href="contribute.html" class="button fit">Tutorials</a></h4>
+								<h4 style="width:240px"><a href="contribute.html" class="button fit">Tutorials</a></h4>
 							</header>
 						</article>
 					</div>
 				</div>
+
+				<div class="inner">
+					<h4 style="font-weight: 600;margin-top:40px;line-height:0px">References</h4>
+					<p style="margin-top:20px; margin-bottom:0px">
+					<ul style="margin-left:30px">
+					<li>Cite the appropriate TensorFlow network which is bundled into DeepImageJ.</li>
+					<li>
+					E. Gómez de Mariscal et al., 
+					<i>"DeepImageJ: A user-friendly plugin to run deep learning models in ImageJ"</i>
+					submitted 07.08.2019.</li>
+					
+					</ul>
+					
+				</div>
 				
 				<div class="inner">
-					<p></p>
-					<h4 style="font-weight: 600">Conditions of use</h4>
-					<p> All the resources provided are freely available for noncommercial and research purposes.  
-					Their use for any other purpose is generally possible, but solely with the explicit permission of the authors. 
-					You are expected to include adequate references whenever you present or publish results that are based on the resources provided.</p>
-					<h4 style="font-weight: 600">References</h4>
-					<p> -- </p>
-					<p><u><b><a href="https://github.com/deepimagej/deepimagej-plugin">GitHub</a></b></u> Java source code of the plugin.</p>
-					<h4 style="font-weight: 600">Acknowledgements</h4>
-					<p> -- </p>
-					<h4 style="font-weight: 600">Contact</h4>
-						<ul class="alt">
-							<li>Estibaliz Gómez de Mariscal - esgomezm@pa.uc3m.es</li>
-							<li>Carlos Javier García lopez de Haro</li>
-							<li>Arrate Muñoz Barrutia - mamunozb@ing.uc3m.es</li>
-							<li>Daniel Sage - daniel.sage@epfl.ch </li>
-							<li>Michael Unser</li>
+					<h4 style="font-weight: 600;margin-top:40px;line-height:0px">Acknowledgements</h4>
+					<p>
+					This work is supported by the Spanish Ministry of Economy and Competitiveness 
+					(TEC2015-73064-EXP, TEC2016–78052-R) and by a 2017 Leonardo Grant for Researchers 
+					and Cultural Creators, BBVA Foundation. 
+					This work is part of the EPFL initiative <a href="http://imaging.epfl.ch/">imaging@EPFL</a>.
+					We thanks the program "Short Term Scientific Missions" of <a href="http://eubias.org/NEUBIAS/">NEUBIAS</a> (Network of european bioimage analysists).
+					We also want to acknowledge the support of NVIDIA Corporation with the donation of the GPU card.
+					</p>
+					<h4 style="font-weight: 600;margin-top:40px;line-height:0px">Contact</h4>
+						<ul style="margin-left:30px">
+							<li><a href="mailto:esgomezm@pa.uc3m.es">Estibaliz Gómez de Mariscal</a></li>
+							<li><a href="mailto:mamunozb@ing.uc3m.es">Arrate Muñoz Barrutia</a></li>
+							<li><a href="mailto:daniel.sage@epfl.ch">Daniel Sage</a></li>
 						</ul>
 					
 				</div>
@@ -115,6 +191,17 @@
 			<script src="assets/js/skel.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+
+			<script src="multislide/js/multislider.js"></script> 
+			<script>
+			$('#mixedSlider').multislider({
+				duration: 750,
+				interval: 3000
+			});
+			</script>
+
+
 
 	</body>
 </html>

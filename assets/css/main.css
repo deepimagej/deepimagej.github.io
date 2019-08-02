@@ -1611,7 +1611,7 @@
 		font-family: "Raleway", Arial, Helvetica, sans-serif; /*"Source Sans Pro"*/
 		font-size: 13pt;
 		font-weight: 300;
-		line-height: 1.35;
+		line-height: 1.55;
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -1692,7 +1692,7 @@
 		}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.5em;
 		font-weight: 100;
 	}
 
@@ -2588,9 +2588,9 @@
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 600;
-		height: 2.85em;
-		line-height: 2.95em;
-		padding: 0 1.5em;
+		height: 2.4em;
+		line-height: 2.4em;
+		padding: 0 1.0em;
 		text-align: center;
 		text-decoration: none;
 		white-space: nowrap;
