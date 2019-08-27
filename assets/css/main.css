@@ -2886,8 +2886,8 @@
 	@media screen and (max-width: 480px) {
 
 		#header {
-			top: 0.5em;
-			min-width: 150px;
+			top: 1em;
+			min-width: 320px;
 		}
 
 	}
@@ -3065,7 +3065,7 @@
 		@media screen and (max-width: 480px) {
 
 			#banner {
-				padding: 5em 1em 3em 1em;
+				padding: 5em 1em 3em 1em; /* Default 6em 1.5em 4em 1.5em;*/
 			}
 
 		}
