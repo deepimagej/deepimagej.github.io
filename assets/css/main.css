@@ -2886,8 +2886,8 @@
 	@media screen and (max-width: 480px) {
 
 		#header {
-			top: 1em;
-			min-width: 320px;
+			top: 0.5em;
+			min-width: 150px;
 		}
 
 	}
