@@ -219,7 +219,7 @@
 /* Grid */
 
 	.row {
-		border-bottom: solid 1px transparent;
+		/*border-bottom: solid 1px transparent;*/
 		-moz-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
@@ -2634,7 +2634,7 @@
 		button.fit,
 		.button.fit {
 			display: block;
-			background-color: #074167;
+			background-color: #074167; /*Changed*/
 			margin: 0 0 1em 0;
 			width: 100%;
 		}
@@ -2756,7 +2756,9 @@
 			line-height: 44px;
 			position: fixed;
 		}
+
 /*Own contribution to get stripped lined in the banner*/
+/*--
 	.module {
 	  background: white;
 	  border: 0px solid #ccc;
@@ -2785,7 +2787,7 @@
 		#999
 	  )
 	}
-/*----------------------*/
+--------------------*/
 	#header {
 		color: #000000; /*Default: #d4e0ef; header's link font color*/
 		cursor: default;
@@ -2956,7 +2958,7 @@
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			-webkit-tap-highlight-color: transparent;
+			/*-webkit-tap-highlight-color: transparent;*/
 			border: 0;
 			color: #d4e0ef;
 			cursor: pointer;
