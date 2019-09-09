@@ -2260,7 +2260,7 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Raleway", Arial, Helvetica, sans-serif; /*FontAwesome;*/
+			font-family: "Raleway", Arial, Helvetica, sans-serif, FontAwesome;
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
