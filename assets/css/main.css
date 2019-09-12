@@ -1829,7 +1829,7 @@
 
 			section.wrapper header h2, article.wrapper header h2 {
 				font-size: 2.75em;
-				margin: 1em 0 .5em 0;
+				margin: 1.5em 0 .5em 0;
 			}
 
 			section.wrapper header p, article.wrapper header p {
@@ -2320,7 +2320,7 @@
 
 		.image.main {
 			display: block;
-			margin: 0 0 3em 0;
+			margin: 0 10em 0em 10em; /* to place the image in the middle of the page*/
 			width: 100%;
 		}
 
@@ -2999,7 +2999,7 @@
 /* Banner */
 
 	#banner {
-		padding: 3em 0 0em 0;/*Default: 12em 0 10em 0; */
+		padding: 10em 0 0em 0;/*Default: 12em 0 10em 0; */
 		/*Header background image: */
 		/*background-image: url('../../images/banner2.jpg');*/
 		background-size: cover;
@@ -3021,9 +3021,11 @@
 		}
 
 		#banner p {
-			font-size: 2em; /*1em*/
+			font-size: 1.7em; /*1em*/
 			color: rgba(100, 100, 100, 1);/*default: rgba(255, 255, 255, 0.55); rgba(0, 0, 255, 0.7) subtitle's color*/
 			margin-bottom: 0em;
+			margin-top: 0.5em;
+			padding: 0em 0em 0em 3em;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
