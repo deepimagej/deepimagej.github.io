@@ -2752,7 +2752,7 @@
 		.subpage #header {
 			background: #fff; /*Default menu background color #5385c1;*/
 			top: 0;
-			height: 44px;
+			height: 105px; /*size of the menu background line*/
 			line-height: 44px;
 			position: fixed;
 		}
