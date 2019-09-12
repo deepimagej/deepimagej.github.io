@@ -1820,7 +1820,7 @@
 		}
 
 	section.wrapper, article.wrapper {
-		padding: 6em 0;
+		padding: 3em 0;
 	}
 
 		section.wrapper header, article.wrapper header {
@@ -1829,7 +1829,7 @@
 
 			section.wrapper header h2, article.wrapper header h2 {
 				font-size: 2.75em;
-				margin: 0 0 .5em 0;
+				margin: 1em 0 .5em 0;
 			}
 
 			section.wrapper header p, article.wrapper header p {
@@ -2803,6 +2803,7 @@
 
 		#header .inner {
 			margin: 0 auto;
+			top: 1.5em; /*4em;*/
 			position: relative;
 		}
 
@@ -2998,9 +2999,9 @@
 /* Banner */
 
 	#banner {
-		padding: 5em 0 5em 0;/*Default: 12em 0 10em 0; */
+		padding: 3em 0 0em 0;/*Default: 12em 0 10em 0; */
 		/*Header background image: */
-		background-image: url('../../images/banner2.jpg');
+		/*background-image: url('../../images/banner2.jpg');*/
 		background-size: cover;
 		background-position: top;
 		background-attachment: fixed;
@@ -3020,9 +3021,9 @@
 		}
 
 		#banner p {
-			font-size: 1.5em; /*1em*/
-			color: rgba(0, 255, 255, 1);/*default: rgba(255, 255, 255, 0.55); rgba(0, 0, 255, 0.7) subtitle's color*/
-			margin-bottom: 1.75em;
+			font-size: 2em; /*1em*/
+			color: rgba(100, 100, 100, 1);/*default: rgba(255, 255, 255, 0.55); rgba(0, 0, 255, 0.7) subtitle's color*/
+			margin-bottom: 0em;
 		}
 
 		@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
