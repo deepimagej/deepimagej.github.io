@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Deep ImageJ: BundledModels</title>
+		<title>deepImageJ &bull; BundledModels</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -37,34 +37,26 @@
 				<div class="inner">
 					<header class="align-center">
 						<h2>DeepImageJ Bundled Models</h2>
-						<!--<header class="align-center">
-							<h2><b><font size="5" style="color:black">WORK IN PROGRESS</font></b></h2>
-							<p style="color:black"><font size="3">This is unfinished project that is still being developed</font></p>
-						</header>-->
-						<h4>Ready-to-use trained models </h4>
-						<p>Unzip the zip file and store it into the folder <em>models</em> of ImageJ. If it is a first-time use, create the folder models inside ImageJ (<em>".../ImageJ/models/"</em>). </p>
-						<!--
-						<nav id="nav">
-							<a href="models.html">Super-resolution</a>
-							<a href="models.html">Image enhancement</a>
-							<a href="models.html">Segmentation</a>
-							<a href="models.html">Image restoration</a>
-							<a href="models.html">Others</a>
-						</nav>
-						-->
-					</header>
+				</header>
+					<header class="align-left">
+						<h4 style="font-weight: 600">Ready-to-use trained models </h4>
+						<p>
+						Unzip the zip file and store it into the folder <span style="color:red;font-weight:900">models</span> of ImageJ.<br>
+						If it is a first-time use, create the folder <span style="color:red;font-weight:900">models</span> inside ImageJ (<em>".../ImageJ/models/"</em>). </p>
+				</header>
+
 					<div class="flex flex-2">
 					<!-- Stardist -->
+						<a name="1"></a>
 						<article style="margin-top:5px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1xgBXvvCAmOtIZMr2ELriWEGYkHszKXAc/view?usp=sharing">Stardist Nuclei Detection</a></h3>
-							<h4>Instance Segmentation - Fluoresecence microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Instance Segmentation - Fluoresecence microscopy</h4>
 							<p><img src="models/stardist/exampleImage.png" alt="result" align="middle" width="230">, 
 							<img src="models/stardist/stardist.gif" alt="result" align="middle" width="230"></p>
-								<h5><a href="https://arxiv.org/pdf/1806.03535.pdf"><em>Cell Detection with Star-Convex Polygons</em>, MICCAI, 2018</a>.</h5>
-								<h6><a href="https://github.com/mpicbg-csbd/stardist" class="button icon fa-info-circle">Code</a><h6>
-								<h6>Uwe Schmidt, <em>et al.</em></h6>
+								<h5 style="line-height:20px;height:68px">Uwe Schmidt et al., <a href="https://arxiv.org/pdf/1806.03535.pdf"><u>Cell Detection with Star-Convex Polygons</u></a>, MICCAI, 2018.</h5>
+								<h6><a href="https://github.com/mpicbg-csbd/stardist" class="button icon fa-info-circle">Code</a></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1xgBXvvCAmOtIZMr2ELriWEGYkHszKXAc/view?usp=sharing" class="button special fit small icon fa-download">Stardist Nuclei Detection</a>
 								</footer>
@@ -72,16 +64,17 @@
 							</div>							
 						</article>
 						<!-- Exosomes -->
+						<a name="2"></a>
 						<article style="margin-top:5px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/10eeK3zTSx5dkeZoE8OaBncM1PqBGNHV2/view?usp=sharing">FRU-Net sEV Segmentation</a></h3>						
-							<h4>Instance segmentation - TEM</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - TEM</h4>
 							<p><img src="models/frunet/exampleImage_1.png" alt="a"  align="middle" width="230">,
 								<img src="models/frunet/resultImage_1.png" alt="b"  align="middle" width="230"></p>
-								<h5><a href="https://www.nature.com/articles/s41598-019-49431-3"><em>Deep-Learning-Based Segmentation of Small Extracellular Vesicles in Transmission Electron Microscopy Images</em>, Scientific Reports, 2019</a>.</h5>
+								<h5 style="line-height:20px;height:68px">Estibaliz Gómez-de-Mariscal et al., <a href="https://www.nature.com/articles/s41598-019-49431-3"><u>Deep-Learning-Based Segmentation of Small Extracellular Vesicles in Transmission Electron Microscopy Images</u></a>, Scientific Reports, 2019.</h5>
 								<h6><a href="https://cbia.fi.muni.cz/research/segmentation/fru-net" class="button icon fa-info-circle">Code</a><h6>
-								<h6>Estibaliz Gómez-de-Mariscal, <em>et al.</em></h6>
+								<h6></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/10eeK3zTSx5dkeZoE8OaBncM1PqBGNHV2/view?usp=sharing" class="button special fit small icon fa-download">FRU-Net sEV Segmentation</a>
 								</footer>
@@ -89,17 +82,17 @@
 							</div>
 						</article>
 						<!-- Hela cell segmentation -->
+						<a name="3"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1ohlFBA-uKQtw2WxMSBQSYYEJU5osjX2u/view?usp=sharing">U-Net HeLa Segmentation</a></h3>
-							<h4>Instance segmentation - DIC microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - DIC microscopy</h4>
 							<p><img src="models/hela/exampleImage.png" alt="original"  align="middle" width="230">,
 								<img src="models/hela/resultImage.png" alt="result" align="middle" width="230"></p>
-								<h5><em>Hela cell segmentation with U-Net</em>, Biomedical Imaging Group, School of Engineering, Lausanne, Switzerland</h5>
+								<h5 style="line-height:20px;height:68px">João Luis Soares Lopes, Hela cell segmentation with U-Net, Biomedical Imaging Group, EPFL.</h5>
 								<h6><a href="https://github.com/deepimagej/python4deepimagej/tree/master/unet" class="button icon fa-github">Code</a>
-								<a href="models_documentation.html" class="button icon fa-info-circle">More Information</a><h6>			
-								<h6>João Luis Soares Lopes</h6>
+								<a href="http://celltrackingchallenge.net/2d-datasets/" class="button icon fa-info-circle">More Information</a><h6>	
 								<footer>
 									<a href="https://drive.google.com/file/d/1ohlFBA-uKQtw2WxMSBQSYYEJU5osjX2u/view?usp=sharing" class="button special fit small icon fa-download">U-Net HeLa Segmentation</a>
 								</footer>
@@ -107,16 +100,16 @@
 							</div>							
 						</article>
 						<!-- Noise2Void -->
+						<a name="4"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1PxdLQwh6pJ2qJzxJph77aOJHR1KfwSfz/view?usp=sharing">Noise2Void Denoising</a></h3>
-							<h4>Denoising - Fluorescence microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Denoising - Fluorescence microscopy</h4>
 							<p><img src="models/noise2void/exampleImage.png" alt="original"  align="middle" width="230">,
 								<img src="models/noise2void/resultImage.png" alt="result" align="middle" width="230"></p>					
-								<h5><a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Krull_Noise2Void_-_Learning_Denoising_From_Single_Noisy_Images_CVPR_2019_paper.pdf"><em>Noise2void-learning  denoising  from  singlenoisy images.</em>, CVPR, 2019.</a></h5>
+								<h5 style="line-height:20px;height:68px">Alexander  Krull et al., <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Krull_Noise2Void_-_Learning_Denoising_From_Single_Noisy_Images_CVPR_2019_paper.pdf"><u>Noise2void-learning  denoising  from  singlenoisy images.</u></a>, CVPR, 2019.</h5>
 								<h6><a href="https://github.com/juglab/n2v" class="button icon fa-info-circle">Code</a><h6>
-								<h6>Alexander  Krull, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1PxdLQwh6pJ2qJzxJph77aOJHR1KfwSfz/view?usp=sharing" class="button special fit small icon fa-download">Noise2Void Denoising</a>
 								</footer>
@@ -125,118 +118,124 @@
 						</article>
 						
 						<!-- CBS deep model - isotropic reconstruction -->
+						<a name="5"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1hl7wqBBoa32aFyIy_Own99zwgwH57-nk/view?usp=sharing">CARE Isotropic Reconstruction</a></h3>
-							<h4>Isotropic reconstruction - Fluorescence microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Isotropic reconstruction - Fluorescence microscopy</h4>
 							<p><img src="models/isotropic_reconstruction/exampleImage.png" alt="original"  align="middle" width="230">,
 								<img src="models/isotropic_reconstruction/resultImage.png" alt="result" align="middle" width="230"></p>					
-								<h5><a href="https://www.nature.com/articles/s41592-018-0216-7"><em>Content-aware image restoration: pushing the limits of fluorescence microscopy</em>, Nature Methods, 2018.</a></h5>
+								<h5 style="line-height:20px;height:68px">Martin Weigert et al., <a href="https://www.nature.com/articles/s41592-018-0216-7"><u>Content-aware image restoration: pushing the limits of fluorescence microscopy</u></a>, Nature Methods, 2018.</h5>
 								<h6><a href="https://csbdeep.bioimagecomputing.com/" class="button icon fa-info-circle">More Information</a><h6>
-								<h6>Martin Weigert, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1hl7wqBBoa32aFyIy_Own99zwgwH57-nk/view?usp=sharing" class="button special fit small icon fa-download">CARE Isotropic Reconstruction</a>
 								</footer>
 							</header>
 							</div>
 						</article>
+						
 						<!-- CBS deep model - microtubules -->
+						<a name="6"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1WyulPvOHi1wOgxFjSKLkMQM8La98Tx1W/view?usp=sharing">CARE Deconvolution Microtubules</a></h3>
-							<h4>Deconvolution - Fluorescence microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Deconvolution - Fluorescence microscopy</h4>
 							<p><img src="models/tubulin/exampleImage.png" alt="original"  align="middle" width="230">,
 								<img src="models/tubulin/resultImage.png" alt="result" align="middle" width="230"></p>					
-								<h5><a href="https://www.nature.com/articles/s41592-018-0216-7"><em>Content-aware image restoration: pushing the limits of fluorescence microscopy</em>, Nature Methods, 2018.</a></h5>
+								<h5 style="line-height:20px;height:68px">Martin Weigert et al., <a href="https://www.nature.com/articles/s41592-018-0216-7"><u>Content-aware image restoration: pushing the limits of fluorescence microscopy</u></a>, Nature Methods, 2018.</h5>
 								<h6><a href="https://csbdeep.bioimagecomputing.com/" class="button icon fa-info-circle">More Information</a><h6>
-								<h6>Martin Weigert, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1WyulPvOHi1wOgxFjSKLkMQM8La98Tx1W/view?usp=sharing" class="button special fit small icon fa-download">CARE Deconvolution Microtubules</a>
 								</footer>
 							</header>
 							</div>
 						</article>
+						
 						<!-- Ozcan UCLA lab kidney -->
+						<a name="7"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 							<header>
 								<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1yFFJRv92O4sLutjjsalb4Ax50acvwGy6/view?usp=sharing">Jones Virtual Staining</a></h3>		
-								<h4>Virtual labelling - Light transmission microscopy</h4>
+								<h4 style="height:40px; line-height:21px; color:#333">Virtual labelling - Light transmission microscopy</h4>
 								<p><img src="models/kidney/exampleImage.png" alt="original"  align="middle" width="230">,
 								<img src="models/kidney/resultImage.png" alt="result" align="middle" width="230"></p>																	
-								<h5><a href="https://www.nature.com/articles/s41551-019-0362-y"><em>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</em>, Nature biomedical engineering, 2019.</a></h5>
+								<h5 style="line-height:20px;height:68px">Yair Rivenson et al., <a href="https://www.nature.com/articles/s41551-019-0362-y"><u>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</u></a>, Nature Biomedical Engineering, 2019.</h5>
 								<h6><a href="https://github.com/whd0121/ImageJ-VirtualStain" class="button icon fa-info-circle">Code</a><h6>
-								<h6>Yair Rivenson, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1yFFJRv92O4sLutjjsalb4Ax50acvwGy6/view?usp=sharing" class="button special fit small icon fa-download">Jones Virtual Staining</a>
 								</footer>
 							</header>
 							</div>
 						</article>
+
 						<!-- Ozcan UCLA lab liver -->
+						<a name="8"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 							<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1jBPSvKDX8csMAPL7N66Kcg3ejfP74fry/view?usp=sharing">MT3 Virtual Staining</a></h3>
-							<h4>Virtual labelling - Light transmission microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Virtual labelling - Light transmission microscopy</h4>
 							<p><img src="models/liver/exampleImage-1.png" alt="original"  align="middle" width="230">,
 								<img src="models/liver/resultImage-1.png" alt="result" align="middle" width="230"></p>						
-								<h5><a href="https://www.nature.com/articles/s41551-019-0362-y"><em>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</em>, Nature biomedical engineering, 2019.</a></h5>
+								<h5 style="line-height:20px;height:68px">Yair Rivenson et al., <a href="https://www.nature.com/articles/s41551-019-0362-y"><u>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</u></a>, Nature Biomedical Engineering, 2019.</h5>
 								<h6><a href="https://github.com/whd0121/ImageJ-VirtualStain" class="button icon fa-info-circle">Code</a><h6>
-								<h6>Yair Rivenson, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1jBPSvKDX8csMAPL7N66Kcg3ejfP74fry/view?usp=sharing" class="button special fit small icon fa-download">MT3 Virtual Staining</a>
 								</footer>
 							</header>
 							</div>
 						</article>
+						
 						<!-- Ozcan UCLA widefield TXRED -->
+						<a name="9"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1ZtNpl0m2VNPP60LB6eVdEa9QWhpKQP96/view?usp=sharing">Widefield TxRed Super-resolution</a></h3>
-							<h4>Super-resolution - Fluorescence microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Super-resolution - Fluorescence microscopy</h4>
 							<p><img src="models/widefield_txred/exampleImage-1.png" alt="original"  align="middle" width="230">,
 								<img src="models/widefield_txred/resultImage-1.png" alt="result" align="middle" width="230"></p>
-								<h5><a href="https://www.nature.com/articles/s41592-018-0239-0"><em>Deep learning enables cross-modality super-resolution in fluorescence microscopy</em>, Nature Methods, 2019.</a></h5>
+								<h5 style="line-height:20px;height:68px">Hongda Wang et al., <a href="https://www.nature.com/articles/s41592-018-0239-0"><u>Deep learning enables cross-modality super-resolution in fluorescence microscopy</u></a>, Nature Methods, 2019.</h5>
 								<h6><a href="https://www.nature.com/articles/s41592-018-0239-0" class="button icon fa-info-circle">Trained models</a></h6>
-								<h6>Hongda Wang, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1ZtNpl0m2VNPP60LB6eVdEa9QWhpKQP96/view?usp=sharing" class="button special fit small icon fa-download">Widefield TxRed Super-resolution</a>
 								</footer>
 							</header>	
 							</div>							
 						</article>
+						
 						<!-- Ozcan UCLA widefield DAPI -->
+						<a name="10"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 							<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1cov5PPb6BBOzv4IzT1kJhffuqFbLnYDA/view?usp=sharing">Widefield DAPI Super-resolution</a></h3>
-							<h4>Super-resolution - Fluorescence microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Super-resolution - Fluorescence microscopy</h4>
 							<p><img src="models/widefield_dapi/exampleImage-1.png" alt="original"  align="middle" width="230">,
 								<img src="models/widefield_dapi/resultImage-1.png" alt="result" align="middle" width="230"></p>
-								<h5><a href="https://www.nature.com/articles/s41592-018-0239-0"><em>Deep learning enables cross-modality super-resolution in fluorescence microscopy</em>, Nature Methods, 2019.</a></h5>
+								<h5 style="line-height:20px;height:68px">Hongda Wang et al., <a href="https://www.nature.com/articles/s41592-018-0239-0"><u>Deep learning enables cross-modality super-resolution in fluorescence microscopy</u></a>, Nature Methods, 2019.</h5>
 								<h6><a href="https://www.nature.com/articles/s41592-018-0239-0" class="button icon fa-info-circle">Trained models</a></h6>
-								<h6>Hongda Wang, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1cov5PPb6BBOzv4IzT1kJhffuqFbLnYDA/view?usp=sharing" class="button special fit small icon fa-download">Widefield DAPI Super-resolution</a>
 								</footer>
 							</header>
 							</div>
 						</article>
+						
 						<!-- Ozcan UCLA widefield FITC -->
+						<a name="11"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1KdYso33lsOGdU2yJaVat82LmLs2Lrapf/view?usp=sharing">Widefield FITC Super-resolution</a></h3>
-							<h4>Super-resolution - Fluorescence microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Super-resolution - Fluorescence microscopy</h4>
 							<p><img src="models/widefield_fitc/exampleImage-1.png" alt="original"  align="middle" width="230">,
 								<img src="models/widefield_fitc/resultImage-1.png" alt="result" align="middle" width="230"></p>
-								<h5><a href="https://www.nature.com/articles/s41592-018-0239-0"><em>Deep learning enables cross-modality super-resolution in fluorescence microscopy</em>, Nature Methods, 2019.</a></h5>
+								<h5 style="line-height:20px;height:68px">Hongda Wang et al., <a href="https://www.nature.com/articles/s41592-018-0239-0"><u>Deep learning enables cross-modality super-resolution in fluorescence microscopy</u></a>, Nature Methods, 2019.</h5>
 								<h6><a href="https://www.nature.com/articles/s41592-018-0239-0" class="button icon fa-info-circle">Trained models</a></h6>
-								<h6>Hongda Wang, <em>et al.</em></h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1KdYso33lsOGdU2yJaVat82LmLs2Lrapf/view?usp=sharing" class="button special fit small icon fa-download">Widefield FITC Super-resolution</a>
 								</footer>
@@ -245,17 +244,17 @@
 						</article>
 						
 						<!-- Glio cell segmentation -->
+						<a name="12"></a>
 						<article style="margin-top:50px">
 						<div class="box">
 						<header>
 							<h3 style="margin-bottom:5px;font-weight:800"><a href="https://drive.google.com/file/d/1G64hJ3bDusU99JeS0aOef4w0E31KA5qr/view?usp=sharing">U-Net Glioblastoma Segmentation</a></h3>
-							<h4>Instance segmentation - Phase contrast microscopy</h4>
+							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - Phase contrast microscopy</h4>
 							<p><img src="models/unet_glio/exampleImage.png" alt="original"  align="middle" width="230">,
 								<img src="models/unet_glio/resultImage.png" alt="result" align="middle" width="230"></p>
-								<h5><em>Glioblastoma cell segmentation with U-Net</em>, Biomedical Imaging Group, School of Engineering, Lausanne, Switzerland</h5>
+								<h5 style="line-height:20px;height:68px">João Luis Soares Lopes, Glioblastoma cell segmentation with U-Net</em>, Biomedical Imaging Group, EPFL</h5>
 								<h6><a href="https://github.com/deepimagej/python4deepimagej/tree/master/unet" class="button icon fa-github">Code</a>
 								<a href="models_documentation.html" class="button icon fa-info-circle">More Information</a><h6>
-								<h6>João Luis Soares Lopes</h6>
 								<footer>
 									<a href="https://drive.google.com/file/d/1G64hJ3bDusU99JeS0aOef4w0E31KA5qr/view?usp=sharing" class="button special fit small icon fa-download">U-Net Glioblastoma Segmentation</a>
 								</footer>
