@@ -1768,8 +1768,8 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px #dbdbdb;
-		margin: 2em 0;
+		border-bottom: dotted 1px #dbdbdb;
+		margin: 0.5em 0;
 	}
 
 		hr.major {
@@ -2793,7 +2793,7 @@
 		cursor: default;
 		height: 3.25em;/*Header's link height*/
 		left: 0;
-		line-height: 44px;
+		line-height: 30px;
 		position: absolute;
 		text-align: right;
 		top: 1em; /*4em;*/

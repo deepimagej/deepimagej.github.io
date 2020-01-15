@@ -13,8 +13,8 @@
 		<link rel="stylesheet" href="multislide/multislide.css" />
 		<link rel="icon" href="images/icon.png"/>
 		<style>
-		.modality {border:1px solid #074167;color:#074167;padding:3px;margin:0px}
-		.task {border:1px solid #074167;background-color:#074167;color:white;padding:3px;margin:0px}
+		.modality {border:1px solid #074167;color:#074167;padding:3px;margin:0px; font-size:12px}
+		.task {border:1px solid #074167;background-color:#074167;color:white;padding:3px;margin:0px; font-size:12px}
 		</style>
 	</head>
 	<body>
@@ -22,8 +22,17 @@
 		<!-- Header -->
 			<header id="header">
 				<div class="inner">
-					<!-- <a href="index.html" class="logo" style="color:#fff"><img src="images/deepimagej_logo.svg" title="logo" /></a> -->
 					<nav id="nav">
+						<div style="float:left; margin-right:20px">
+						<p style="padding:0px;margin:0px">
+						<a href="http://bigwww.epfl.ch/" style="padding:0px;margin:0px"><img src="images/epfl_logo.png" title="logo-epfl" style="width:76px; " /></a>
+						<a href="https://image.hggm.es/" style="padding:0px;margin:0px" ><img src="images/uc3m_logo.png" title="logo-uc3m" style="width:76px; " /></a>
+						</p>
+						<p style="float:left; padding:0px;margin:0px">
+						<a href="http://imaging.epfl.ch/" style="padding:10px;margin:0px"><img  src="images/imaging-epfl.png" title="logo-epfl" style="width:192px;" /></a>
+						</p>
+						
+						</div>
 						<a href="index.html">Home</a>
 						<a href="download.html">Download</a>
 						<a href="models.html">Bundled Models</a>
@@ -37,7 +46,7 @@
 
 		<!-- Banner -->
 			<section id="banner">
-				<img  width="450" src="images/deepimagej_logo.png" title="logo" />
+				<p><img  width="400" src="images/deepimagej_logo.png" title="logo"/></p>
 				<p>A user-friendly plugin to run deep learning models in ImageJ</p>
 			</section>
 
@@ -65,14 +74,14 @@
 					<div class="flex flex-4">
 						<article>
 							<header>
-								<h4 style="width:240px"><a href="download.html" class="button fit icon fa-download">Download Plugin</a></h4>
-								<p><b><pre>     version 1.0.1 </pre></b></p>
+								<h4 style="width:240px;margin:0px"><a href="download.html" class="button fit icon fa-download">Download Plugin</a></h4>
+								<div style="width:240px;padding:0px;margin:0x;line-height:10px;text-align:center;vertical-align: middle;">version 1.0.1</div>
 							</header>
 						</article>
 						<article>
 							<header>
 								<h4 style="width:240px"><a href="models.html" class="button fit icon fa-search">Search a model</a></h4>
-								<p><b><pre>  13 ready-to-use models </pre></b></p>
+								<div style="width:240px;padding:0px;margin:0x;line-height:10px;text-align:center;vertical-align: middle;">13 ready-to-use models</div>
 							</header>
 						</article>
 					</div>
@@ -80,141 +89,138 @@
 
 		<!-- Slider -->
 			<div class="inner">
+			<div style="height:30px"></div>
 			<hr />	
-			<h3 style="font-weight:bold"><a href="models.html" class="button alt fit">Bundled Models</a></h3>
+			<h3 style="font-weight:bold">Bundled Models</h3>
 			<div id="mixedSlider">
 		 	<div class="MS-content" style="background-color:white">
 
 				<div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#12">
 						<h2 class="blogTitle">U-Net Glioblastoma Segmentation</h2>
 						<img src="slider/unet_glio.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Instance Segmentation</span><span class="modality">Phase Contrast</p>
-					<p style="font-style:italic">Data: Cell Tracking Challenge<br>
-					Traning: João Luis Soares Lopes (EPFL)</p>
-				  	<a href="models.html#12">Read more</a>
+					<p style="font-style:italic; font-size:12px">Data: Cell Tracking Challenge<br>Traning: João Luis Soares Lopes (EPFL)</p>	
 				</div>
 				
 				<div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#4">
 						<h2 class="blogTitle">Noise2Void Denoising</h2>
 						<img src="slider/noise2void.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Denoising</span><span class="modality">Fluorescence</p>
-					<p style="font-style:italic">Data: EPFL<br>
+					<p style="font-style:italic; font-size:12px">Data: EPFL<br>
 					Traning: UC3M</p>
-				  	<a href="models.html#4">Read more</a>
 				</div>
 				
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#2">
 						<h2 class="blogTitle">FRU-Net sEV Segmentation</h2>
 						<img src="slider/frunet_sev.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Instance Segmentation</span><span class="modality">TEM</p>
-					<p style="font-style:italic">Estibaliz Gómez-de-Mariscal et al., Science Reports, 2019.</p>
-				  	<a href="models.html#2">Read more</a>
+					<p style="font-style:italic; font-size:12px">Estibaliz Gómez-de-Mariscal et al., Science Reports, 2019.</p>
 				</div>	
 				<div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#13">
 						<h2 class="blogTitle">DEFCoN density map estimation</h2>
 						<img src="slider/defcon_densitymap.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Density estimation</span><span class="modality">SMLM</p>
-					<p style="font-style:italic">Baptiste Ottino et al. (EPFL)</p>
-				  	<a href="models.html#13">Read more</a>
+					<p style="font-style:italic; font-size:12px">Baptiste Ottino et al. (EPFL)</p>
 				</div>	
 				<div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#9">
 						<h2 class="blogTitle">Widefield TxRED Super-resolution</h2>
 						<img src="slider/widefield_txred.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Super-resolution</span><span class="modality">Fluorescence</p>
-					<p style="font-style:italic">Hongda Wang et al., Nature Methods, 2019.</p>
-				  	<a href="models.html#9">Read more</a>
+					<p style="font-style:italic; font-size:12px">Hongda Wang et al., Nature Methods, 2019.</p>
 				</div>
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#1">
 						<h2 class="blogTitle">Stardist Nuclei Detection</h2>
 						<img src="slider/stardist.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Instance Segmentation</span><span class="modality">Fluoresence</p>
-					<p style="font-style:italic">Uwe Schmidt et al., MICCAI 2018.</p>
-				  	<a href="models.html#1">Read more</a>
-				</div>
+					<p style="font-style:italic; font-size:12px">Uwe Schmidt et al., MICCAI 2018.</p>
+					</div>
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#3">
 						<h2 class="blogTitle">U-Net HeLa Segmentation</h2>
 						<img src="slider/unet_hela.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Instance Segmentation</span><span class="modality">DIC</p>
-					<p style="font-style:italic">Data: Cell Tracking Challenge<br>
-					Traning: João Luis Soares Lopes (EPFL)</p>
-				  	<a href="models.html#3">Read more</a>
+					<p style="font-style:italic; font-size:12px">Data: Cell Tracking Challenge<br>Traning: João Luis Soares Lopes (EPFL)</p>
 				</div>
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle">a href="models.html#6">
 						<h2 class="blogTitle">CARE Deconvolution Microtubules</h2>
 						<img src="slider/deconvolution_microtubules.jpeg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Deconvolution</span><span class="modality">Fluorescence</p>
-					<p style="font-style:italic">Martin Weigert et al., Nature Methods, 2018.</p>
-				  	<a href="models.html#6">Read more</a>
+					<p style="font-style:italic; font-size:12px">Martin Weigert et al., Nature Methods, 2018.</p>
 				</div>
 
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#5">
 						<h2 class="blogTitle">CARE Isotropic Reconstruction</h2>
 						<img src="slider/iso_recons.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Isotropic Reconstruction</span><span class="modality">Fluorescence</p>
-					<p style="font-style:italic">Martin Weigert et al., Nature Methods, 2018.</p>
-				  	<a href="models.html#5">Read more</a>
+					<p style="font-style:italic; font-size:12px">Martin Weigert et al., Nature Methods, 2018.</p>
 				</div>
 
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#10">
 						<h2 class="blogTitle">Widefield DAPI Super-resolution</h2>
 						<img src="slider/widefield_dapi.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Super-resolution</span><span class="modality">Fluorescence</p>
-					<p style="font-style:italic">Hongda Wang et al., Nature Methods, 2019.</p>
-				  	<a href="models.html#10">Read more</a>
+					<p style="font-style:italic; font-size:12px">Hongda Wang et al., Nature Methods, 2019.</p>
 				</div>
 
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#11">
 						<h2 class="blogTitle">Widefield FITC Super-resolution</h2>
 						<img src="slider/widefield_fitc.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Super-resolution</span><span class="modality">Fluorescence</p>
-					<p style="font-style:italic">Hongda Wang et al., Nature Methods, 2019.</p>
-				  	<a href="models.html#11">Read more</a>
+					<p style="font-style:italic; font-size:12px">Hongda Wang et al., Nature Methods, 2019.</p>
 				</div>
 
 			    <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#8">
 						<h2 class="blogTitle">Jones Virtual Staining</h2>
 						<img src="slider/jones_staining.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Virtual Labelling</span><span class="modality">Light Transmission</p>
-					<p style="font-style:italic">Yair Rivenson et al., Nature biomedical engineering, 2019.</p>
-				  	<a href="models.html#8">Read more</a>
+					<p style="font-style:italic; font-size:12px">Yair Rivenson et al., Nature biomedical engineering, 2019.</p>
 				</div>
 
 			   <div class="item">
-					<div class="imgTitle">
+					<div class="imgTitle"><a href="models.html#9">
 						<h2 class="blogTitle">MT3 Virtual Staining</h2>
 						<img src="slider/mt3_staining.jpg" alt="" />
+						</a>
 					</div>
 					<p><span class="task">Virtual Labelling</span><span class="modality">Light Transmission</p>
-					<p style="font-style:italic">Yair Rivenson et al., Nature biomedical engineering, 2019.</p>
-				  	<a href="models.html#9">Read more</a>
+					<p style="font-style:italic; font-size:12px">Yair Rivenson et al., Nature biomedical engineering, 2019.</p>
 				</div>
-
-
-				
+			
 			   
 			</div>
 			<div class="MS-controls">
@@ -237,7 +243,7 @@
 				
 				<div class="inner">
 				<hr />
-					<h3 style="font-weight:bold">Concept</h3>
+					<h3 style="font-weight:bold;margin-bottom:10px">Concept</h3>
 					<p>
 					The concept consists on bundling a trained TensorFlow model to 
 					additional information, so it can be used in ImageJ/Fiji as a standard plugin.
@@ -245,7 +251,7 @@
 					<span class="image main"><img src="images/concept.png" style="width:70%" alt=""/></span>
 					<hr />
 					
-					<h3 style="font-weight:bold">References</h3>
+					<h3 style="font-weight:bold;margin-bottom:10px">References</h3>
 					
 					<p style="margin-top:20px; margin-bottom:0px">
 					<ul style="margin-left:30px">
@@ -258,24 +264,24 @@
 					
 					<hr />
 					
-					<h3 style="font-weight:bold">Conditions of use</h3>
+					<h3 style="font-weight:bold;margin-bottom:10px">Conditions of use</h3>
 					<p> The DeepImageJ project is an open source software (OSS) under the <a href="https://github.com/deepimagej/deepimagej-plugin/blob/master/LICENSE">BSD 2-Clause License</a>. 
 						All the resources provided here are freely available for noncommercial and research purposes.  
 						You are expected to include adequate references whenever you present or publish results that are based on the resources provided.
 						</p>
 					<hr />
 					
-					<h3 style="font-weight:bold">Acknowledgements</h3>
-					<p>
-					This work is supported by the Spanish Ministry of Economy and Competitiveness 
+					<h3 style="font-weight:bold;margin-bottom:10px">Acknowledgements</h3>
+					<ul style="margin-left:30px">
+					<li>This work is supported by the Spanish Ministry of Economy and Competitiveness 
 					(TEC2015-73064-EXP, TEC2016–78052-R) and by a 2017 Leonardo Grant for Researchers 
-					and Cultural Creators, BBVA Foundation. 
-					This work is part of the EPFL initiative <a href="http://imaging.epfl.ch/"><u>imaging@EPFL</u></a>.
-					We thanks the program "Short Term Scientific Missions" of <a href="http://eubias.org/NEUBIAS/"><u>NEUBIAS</u></a> (Network of european bioimage analysists). 
-					We also want to acknowledge the support of NVIDIA Corporation with the donation of the Titan X (Pascal) GPU card used for this research.
-					</p>
+					and Cultural Creators, BBVA Foundation.</li>
+					<li>This work is part of the EPFL initiative <a href="http://imaging.epfl.ch/"><u>imaging@EPFL</u></a>.</li>
+					<li>We thanks the program "Short Term Scientific Missions" of <a href="http://eubias.org/NEUBIAS/"><u>NEUBIAS</u></a> (Network of european bioimage analysists).</li>
+					<li>We also want to acknowledge the support of NVIDIA Corporation with the donation of the Titan X (Pascal) GPU card used for this research.</li>
+					</ul>
 					<hr />
-					<h3 style="font-weight:bold">Contact</h3>
+					<h3 style="font-weight:bold;margin-bottom:10px">Contact</h3>
 						<ul style="margin-left:30px">
 							<li><a href="mailto:esgomezm@pa.uc3m.es">Estibaliz Gómez de Mariscal</a></li>
 							<li><a href="mailto:mamunozb@ing.uc3m.es">Arrate Muñoz Barrutia</a></li>
@@ -296,7 +302,7 @@
 					</td>
 					<td></td>
 					<td>
-					<a href="https://image.hggm.es/"><img  src="images/uc3m_logo.jpg" title="logo-uc3m" style="width:160px" /></a><br>
+					<a href="https://image.hggm.es/"><img  src="images/uc3m_logo.png" title="logo-uc3m" style="width:160px" /></a><br>
 					<p style="font-size:0.7em;margin-top:20px">Universidad Carlos III de Madrid<br>
 					Bioengineering and Aerospace Engineering Department<br>					
 					</td>
