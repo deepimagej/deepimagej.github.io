@@ -38,11 +38,17 @@
 					<header class="align-center">
 						<h2>DeepImageJ Bundled Models</h2>
 				</header>
-					<header class="align-left">
-						<h4 style="font-weight: 600">Ready-to-use trained models </h4>
-						<p>
-						Unzip the zip file and store it into the folder <span style="color:red;font-weight:900">models</span> of ImageJ.<br>
-						If it is a first-time use, create the folder <span style="color:red;font-weight:900">models</span> inside ImageJ (<em>".../ImageJ/models/"</em>). </p>
+					<header class="align-justified">
+						<h4 style="font-weight: 600">Ready-to-use trained models </h4>					
+						<ul style="margin-left:30px">
+							<li>Unzip the zip file and store it into the folder <span style="color:red;font-weight:900">models</span> of ImageJ.<br></li>
+							<p> </p>
+							<li>If it is a first-time use, create the folder <span style="color:red;font-weight:900">models</span> inside ImageJ (<em>".../ImageJ/models/"</em>). </p></li>
+							<p> </p>
+							<li><span style="font-weight:900">Important note for non-expert users:</span> We strongly recommend the user to review the results obtained after processing any image. 
+							Please, note that these models were trained using some specific data and their use cannot be generalized. 
+							If a user wants to process new data, the model has to be trained using images with exactly the same properties. Do not hesitate to <b><a href="index.html#contact">contact</a></b> us if you have any question. </li>
+						</ul>	
 				</header>
 <!-- Change the url from sharing to automatically download the model as follows:
 https://drive.google.com/file/d/1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR/view?usp=sharing  (to view the file)
@@ -59,7 +65,7 @@ https://drive.google.com/uc?id=1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR&export=download
 							<p><img src="models/stardist/exampleImage.png" alt="result" align="middle" width="230">, 
 							<img src="models/stardist/stardist.gif" alt="result" align="middle" width="230"></p>
 								<h5 style="line-height:20px;height:68px">Uwe Schmidt et al., <a href="https://arxiv.org/pdf/1806.03535.pdf"><u>Cell Detection with Star-Convex Polygons</u></a>, MICCAI, 2018.</h5>
-								<h6><a href="https://github.com/mpicbg-csbd/stardist" class="button icon fa-info-circle">Code</a></h6>
+								<h6><a href="https://github.com/mpicbg-csbd/stardist" class="button icon fa-github">Code</a></h6>
 								<footer>
 									<a href="https://drive.google.com/uc?id=1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR&export=download" class="button special fit small icon fa-download">Stardist Nuclei Detection</a>
 								</footer>
@@ -113,7 +119,8 @@ https://drive.google.com/uc?id=1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR&export=download
 							<p><img src="models/noise2void/exampleImage.png" alt="original"  align="middle" width="230">,
 								<img src="models/noise2void/resultImage.png" alt="result" align="middle" width="230"></p>					
 								<h5 style="line-height:20px;height:68px">Alexander  Krull et al., <a href="http://openaccess.thecvf.com/content_CVPR_2019/papers/Krull_Noise2Void_-_Learning_Denoising_From_Single_Noisy_Images_CVPR_2019_paper.pdf"><u>Noise2void-learning  denoising  from  singlenoisy images.</u></a>, CVPR, 2019.</h5>
-								<h6><a href="https://github.com/juglab/n2v" class="button icon fa-github">Code</a><h6>
+								<h6><a href="https://github.com/juglab/n2v" class="button icon fa-github">Code</a>
+								<a href="https://github.com/juglab/N2V_fiji/" class="button icon fa-exclamation-triangle">Train it yourself in ImageJ before using it</a><h6>
 								<h6></h6>
 								<footer>
 									<a href="https://drive.google.com/uc?id=1waeVK__XfokGx5WJHp5vk0lM0iLZh5TH&export=download" class="button special fit small icon fa-download">Noise2Void Denoising</a>

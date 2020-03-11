@@ -1787,6 +1787,9 @@
 	.align-right {
 		text-align: right;
 	}
+	.align-justified {
+		text-align: justify;
+	}
 
 	.inner {
 		max-width: 65em;/*Default: 75em; amount of covered page*/
