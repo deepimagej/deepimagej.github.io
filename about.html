@@ -45,12 +45,13 @@
 							<li><p style="margin-bottom:10px"><b>How to use</b>: Check the <a href="https://drive.google.com/file/d/10GVU29v1HtLzIs_HmIKsNZyligl091vj/view?usp=sharing"><u>Documentation</u></a> of the plugin.</p></li>
 							<li><p style="margin-bottom:10px"><b>Source code</b>: <a href="https://github.com/deepimagej/deepimagej-plugin"><i class="icon fa-github"></i><u>GitHub</u></a> Java source code of the plugin.</p></li>
 							<li><p style="margin-bottom:10px"><b>Saving Keras models to be loaded in DeepImageJ</b>: Python code and examples in <a href="https://github.com/deepimagej/python4deepimagej"><i class="icon fa-github"></i><u>GitHub</u></a>.</p></li>
-							<li><p style="margin-bottom:10px">DeepImageJ is split into three different modules:</p>
+							<li><p style="margin-bottom:10px">DeepImageJ splits into three different modules:</p>
 								<ul>
 									<p style="margin-bottom:10px"><b>DeepImageJ Run</b>: Applies a convolutional neural network to an input image (it is <a href="https://storage.googleapis.com/drive-bulk-export-anonymous/20200217T140435Z/4133399871716478688/a769a03c-1561-4aa9-855f-8ccad66a9728/1/27aba705-57eb-45d5-959c-6221a2ce22b3?authuser"><span style="color:blue;font-weight:500">macro-recordable</span></a>).</p>
 									<p style="margin-bottom:10px"><b>DeepImageJ Explore</b>: Allows to explore all the installed models.</p>
 									<p style="margin-bottom:10px"><b>DeepImageJ BuildBundledModel</b>: A guided user interface (GUI) to build bundled models from TensorFlow models.</p>
 								</ul>
+							<li><p style="margin-bottom:10px">DeepImageJ loads TesnorFlow models stored as <a href="https://www.tensorflow.org/guide/saved_model">SavedModel</a> (protocol buffer). DeepImageJ uses libtensorflow-1.15, which means that models trained with older versions can be loaded (backward compatibility). However, forward compatibility is only possible until TensorFlow version 2.2 and as long as all the operations in the model are supported. <a href="https://www.tensorflow.org/guide/migrate#saved_models_compatibility">More information.</a></p>
 							</li>
 						</ul>
 					</div>
