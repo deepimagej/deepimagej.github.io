@@ -49,10 +49,10 @@
 						<li>Compatibility with PyTorch: All PyTorch models stored as TorchScript can be for the first time loaded into Fiji through deepImageJ.</li>
 					</ul>
 					<h4 style="color:black;font-weight: 600">Source code</h4>
-						<p>Note that it is the development branch of the deepImageJ's plugin repository: <a href="https://github.com/deepimagej/deepimagej-plugin/tree/development">https://github.com/deepimagej/deepimagej-plugin/tree/development</a></p>		
+					<p>At the <a href="https://github.com/deepimagej/deepimagej-plugin/tree/development" target="_blank">development branch of the deepImageJ's plugin repository</a>.</p>
 					<h4 style="color:black;font-weight: 600">Installation guidelines</h4>
 					<p>For the moment, it is recommended to use a clean Fiji/ImageJ set up. A prebuilt Fiji with deepImageJ preinstalled for Linux is provided <a href="https://drive.google.com/file/d/10a92INNvpfTx1SdHPOflozgemMa-z2Ep/view?usp=sharing">here.</a></p>
-					<a>Find further details about installation and dependencies at <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/Installation-requirements">deepImageJ's Wiki</a></p>
+					<p>Find further details about installation and dependencies at <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/Installation-requirements">deepImageJ's Wiki</a></p>
 						<ul>
 							<li>Download the dependencies and the plugin given in the following links.</li>
 							<ul>
@@ -68,10 +68,15 @@
 									<li>Install <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">Visual Studio 2019 redistributable.</a></li>
 									<li>Install <a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio 2019.</a></li>
 								</ul>
-							<li>If you have a GPU available in your machine, please make sure that you have the following CONDA versions installed:
+							<li><b style="color:black">GPU connection</b>.<p style="color:green">Detailed information for the GPU installation is given <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/GPU-connection" target="_blank">here</a>.</p>
+							Requirements:
 								<ul>
-									<li>TensorFlow: CUDA 9.0 (TensorFlow 1.12) / CUDA 10.0 (TensorFlow 1.15) and corresponding CUDnn and drivers.</li>
-									<li>PyTorch: CUDA 10.2 is accepted, BUT having other CUDA versions installed might be source of conflicts. In Windows, if any version other than CUDA 10.2 is installed, the plugin will fail to load the model (<a href="https://github.com/awslabs/djl/discussions/126">link to the bug issue in GitHub</a>). If DeepImageJ is not able to load a PyTorch model using the GPU, remove CUDA_PATH (if exists) from your environment variables and make sure that your PATH does not include any directory or file with the words “Nvidia” or “CUDA”. For that go to 'Edit the system environment variables' or 'Edit environment variables for your account', then click on 'Environment variables' and finally check the 'Path' and 'CUDA_PATH' variables (note that Windows is not case sensitive so they might be written and 'PATH' or 'path').</li>
+									<li><b style="color:black">TensorFlow: CUDA 9.0 (TensorFlow 1.12) / CUDA 10.0 (TensorFlow 1.15)</b> and corresponding CUDnn and drivers.</li>
+									<li><b style="color:black">PyTorch: CUDA 10.2 is accepted, BUT having other CUDA versions installed might be source of conflicts</b>.
+										<ul>
+											<li>In Windows, if any version other than CUDA 10.2 is installed, the plugin will fail to load the model (<a href="https://github.com/awslabs/djl/discussions/126">link to the bug issue in GitHub</a>).</li>
+											<li>If deepImageJ is not able to load a PyTorch model using the GPU, remove CUDA_PATH (if exists) from your environment variables and make sure that your PATH does not include any directory or file with the words “Nvidia” or “CUDA”. For that go to 'Edit the system environment variables' or 'Edit environment variables for your account', then click on 'Environment variables' and finally check the 'Path' and 'CUDA_PATH' variables (note that Windows is not case sensitive so they might be written and 'PATH' or 'path').</li>
+										</ul>
 								</ul>
 						</ul>
 					<h4 style="color:black;font-weight: 600">Models for testing</h4>
