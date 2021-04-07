@@ -50,9 +50,8 @@
 					</ul>
 					<h4 style="color:black;font-weight: 600">Source code</h4>
 					<p>At the <a href="https://github.com/deepimagej/deepimagej-plugin/tree/development" target="_blank">development branch of the deepImageJ's plugin repository</a>.</p>
-					<h4 style="color:black;font-weight: 600">Installation guidelines</h4>
-					<p>For the moment, it is recommended to use a clean Fiji/ImageJ set up. A prebuilt Fiji with deepImageJ preinstalled for Linux is provided <a href="https://drive.google.com/file/d/10a92INNvpfTx1SdHPOflozgemMa-z2Ep/view?usp=sharing">here.</a></p>
-					<p>Find further details about installation and dependencies at <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/Installation-requirements">deepImageJ's Wiki</a></p>
+					<h4 style="color:black;font-weight: 600">Quick installation guidelines</h4>
+					<p>For the moment, it is recommended to use a clean Fiji/ImageJ set up. </p>
 						<ul>
 							<li>Download the dependencies and the plugin given in the following links.</li>
 							<ul>
@@ -68,7 +67,9 @@
 									<li>Install <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">Visual Studio 2019 redistributable.</a></li>
 									<li>Install <a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio 2019.</a></li>
 								</ul>
-							<li><b style="color:black">GPU connection</b>.<p style="color:green">Detailed information for the GPU installation is given <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/GPU-connection" target="_blank">here</a>.</p>
+						</ul>
+							<h4 style="color:black;font-weight: 600">GPU connection (optional)</h4>	
+							<li><p>Detailed information for the GPU installation is given <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/GPU-connection" target="_blank">here</a>.</p>
 							Requirements:
 								<ul>
 									<li><b style="color:black">TensorFlow: CUDA 9.0 (TensorFlow 1.12) / CUDA 10.0 (TensorFlow 1.15)</b> and corresponding CUDnn and drivers.</li>
@@ -78,7 +79,7 @@
 											<li>If deepImageJ is not able to load a PyTorch model using the GPU, remove CUDA_PATH (if exists) from your environment variables and make sure that your PATH does not include any directory or file with the words “Nvidia” or “CUDA”. For that go to 'Edit the system environment variables' or 'Edit environment variables for your account', then click on 'Environment variables' and finally check the 'Path' and 'CUDA_PATH' variables (note that Windows is not case sensitive so they might be written and 'PATH' or 'path').</li>
 										</ul>
 								</ul>
-						</ul>
+					<p>Find further details about installation and dependencies at <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/Installation-requirements">deepImageJ's Wiki</a></p>
 					<h4 style="color:black;font-weight: 600">Models for testing</h4>
 						<p>While compatible with the <a href="https://bioimage.io/#/">Bioimage Model Zoo</a><span class="bioimage-icon" style="font-size:2rem;width:100%;text-align:center;">🦒</span>, these models are not synchronized yet as they are only compatible with the Beta release of deepImageJ. </p>
 <p>To install them in ImageJ, create a folder called <i>models</i> at /ImageJ/ or /Fiji/. Download any of the following models. Unzip its content and place it in the new folder /ImageJ/models.</p> 
