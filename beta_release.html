@@ -50,40 +50,8 @@
 					</ul>
 					<h4 style="color:black;font-weight: 600">Source code</h4>
 					<p>At the <a href="https://github.com/deepimagej/deepimagej-plugin/tree/development" target="_blank">development branch of the deepImageJ's plugin repository</a>.</p>
-					<h4 style="color:black;font-weight: 600">Quick installation guidelines</h4>
-					<p>It is recommended to use a clean Fiji/ImageJ set up avoid version-conflict with previously installed dependencies.</p>
-						<ul>
-							<li>Download the dependencies and the plugin given in the following links.</li>
-							<ul>
-								<li><h5 style="color:black;font-weight: 400"><a href="https://github.com/deepimagej/deepimagej-plugin/releases/download/2.1.6-SNAPSHOT/dependencies_216.zip" class="icon fa-download"> Dependencies 2.1.6 (~380 Mb)</a></h5></li>
-								<li><h5 style="color:black;font-weight: 400"><a href="https://github.com/deepimagej/deepimagej-plugin/releases/download/2.1.6-SNAPSHOT/DeepImageJ_-2.1.6-SNAPSHOT.jar" class="icon fa-download"> DeepImageJ 2.1.6 </a></h5></li>
-							</ul>
-							<li>Place DeepImageJ_-2.1.4-SNAPSHOT.jar inside the 'plugins' folder of the 'ImageJ2/Fiji' directory.</li>
-							<p> </p>
-							<li>Unzip the dependencies_214.zip file. Copy all the .jar files in the 'jars' folder inside the 'ImageJ2/Fiji' directory. If we already have other versions of the dependencies inside the 'jars' folder, the plugin might not function correctly. For a quick test, if possible, we suggest to remove the duplicated dependencies and leave the ones we provide.</li>
-							<p> </p>
-							<li>PyTorch models in Windows: If you are using Windows, please make sure that you have <a href="https://visualstudio.microsoft.com/">Visual Studio</a> installed:
-								<ul>
-									<li>Install <a href="https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads">Visual Studio 2019 redistributable.</a></li>
-									<li>Install <a href="https://visualstudio.microsoft.com/es/downloads/">Visual Studio 2019.</a></li>
-								</ul>
-						</ul>
-						<h4 style="color:black;font-weight: 600">GPU connection (optional)</h4>
-
-							Requirements:
-								<ul>
-									<li><b style="color:black">TensorFlow: CUDA 9.0 (TensorFlow 1.12) / CUDA 10.0 (TensorFlow 1.15)</b> and corresponding CUDnn and drivers.</li>
-									<li><b style="color:black">PyTorch: CUDA 10.2 is accepted, BUT having other CUDA versions installed might be source of conflicts</b>.
-										<ul>
-											<li>In Windows, if any version other than CUDA 10.2 is installed, the plugin will fail to load the model (<a href="https://github.com/awslabs/djl/discussions/126">link to the bug issue in GitHub</a>).</li>
-											<li>If deepImageJ is not able to load a PyTorch model using the GPU, remove CUDA_PATH (if exists) from your environment variables and make sure that your PATH does not include any directory or file with the words “Nvidia” or “CUDA”. For that go to 'Edit the system environment variables' or 'Edit environment variables for your account', then click on 'Environment variables' and finally check the 'Path' and 'CUDA_PATH' variables (note that Windows is not case sensitive so they might be written and 'PATH' or 'path').</li>
-										</ul>
-								</ul>
-					<p>Detailed information for the GPU installation is given <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/GPU-connection" target="_blank">here</a>.</p>
-
-					<h4 style="color:black;font-weight: 600">Find further details about installation and dependencies at <a style="color:blue" href="https://github.com/deepimagej/deepimagej-plugin/wiki/Installation-requirements">deepImageJ's Wiki</a></h4>
 					<h4 style="color:black;font-weight: 600">Models for testing</h4>
-						<p> All the models for deepImageJ are available in the BioImage Model Zoo <span class="bioimage-icon" style="font-size:2rem;width:100%;text-align:center;">🦒</span>. While all the models are compatible with deepImageJ Beta, you can try the NEW ones <a href="https://bioimage.io/#/?type=all&tags=deepimagej-beta" target="_blank">here</a>.</p>
+					<p> All the models for deepImageJ are available in the BioImage Model Zoo <span class="bioimage-icon" style="font-size:2rem;width:100%;text-align:center;">🦒</span>. While all the models are compatible with deepImageJ Beta, you can try the NEW ones <a href="https://bioimage.io/#/?type=all&tags=deepimagej-beta" target="_blank">here</a>.</p>
 
 					<h4 style="color:black;font-weight: 600">Play with deepImageJ (suggested steps)</h4>
 					The easiest way to start is as follows:
