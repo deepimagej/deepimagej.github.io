@@ -24,8 +24,8 @@
 					<nav id="nav">
 						<a href="index.html">Home</a>
 						<a href="about.html">About</a>
-						<a href="download.html">Download</a>
-						<a href="models.html">Bundled Models</a>
+						<a href="download.html">Install</a>
+						<a href="models.html">Models</a>
 						<a href="contribute.html">Contribute</a>
 						<a href="tutorials.html">Tutorials</a>
 					</nav>
@@ -37,52 +37,22 @@
 			<section id="three" class="wrapper">
 				<div class="inner">
 					<header class="align-center">
-						<h2>DeepImageJ Bundled Models </h2>
+						<h2>DeepImageJ Models </h2>
 				</header>
 					<header class="align-justified">
-						<h4 style="font-weight: 600">Ready-to-use trained models. All of them are also available at <a href="https://bioimage.io">Bioimage.IO<span class="bioimage-icon" style="font-size:3rem;width:100%;text-align:center;">🦒</span></a></h4>
-						<!-- <img src="https://raw.githubusercontent.com/bioimage-io/bioimage.io/master/public/static/img/zoo-background.svg" class="bioimage-background-img" align="right" width="300"> -->
-						<ul style="margin-left:30px">
-							<li>Unzip the zip file and store it into the folder <span style="color:red;font-weight:900">models</span> of ImageJ.<br></li>
-							<p> </p>
-							<li>If it is a first-time use, create the folder <span style="color:red;font-weight:900">models</span> inside ImageJ (<em>".../ImageJ/models/"</em>). </p></li>
-							<p> </p>
-							<li><span style="font-weight:900">IMPORTANT NOTE:</span> We strongly recommend the user to review the results obtained after processing any image. 
-							Please, note that these models were trained using some specific data and their use cannot be generalized. 
-							If a user wants to process new data, the model has to be trained using images with exactly the same properties. Do not hesitate to <b><a href="index.html#contact">contact</a></b> us if you have any question. </li>
-						</ul>	
+						<p> All the deepImageJ compatible models for BioImage analysis are available at the <a href="https://bioimage.io" target="_blank">BioImage Model Zoo <span class="bioimage-icon" style="font-size:2rem;width:100%;text-align:center;">🦒</span></a>.</p>
+						<p>Click <a href="https://bioimage.io/#/?partner=deepimagej&type=model" target="_blank">here</a>  for the list of models compatible with deepImageJ.</p>
+						<p><span style="font-weight:900">IMPORTANT NOTE:</span> We strongly recommend the user to review the results obtained after processing any image.
+							Please, note that these models were trained using some specific data and their use cannot be generalized.
+							If a user wants to process new data, the model has to be trained using images with exactly the same properties. Do not hesitate to <b><a href="index.html#contact">contact</a></b> us if you have any question.</p>
 				</header>
 <!-- Change the url from sharing to automatically download the model as follows:
 https://drive.google.com/file/d/1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR/view?usp=sharing  (to view the file)
 https://drive.google.com/uc?id=1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR&export=download    (to automatically download the file file/d/ -> uc?id=  and  /view?usp=sharing -> &export=download )
  -->
-					<div class="flex flex-2">
-
-					<!-- Cell tracking Challenge, Filip Lux and Petr Matula submission -->
-						<a name="15"></a>
-						<article style="margin-top:5px">
-						<div class="box">
-						<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=MU-Lux_CTC_PhC-C2DL-PSC" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://zenodo.org/record/4155785/files/MU-Lux_CTC_PhC-C2DL-PSC.bioimage.io.model.zip?download=1">MU-Lux (CTC) PhC-C2DL-PSC cells</a></h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - Phase contrast microscopy</h4>
-							<p><!--<img src="https://raw.githubusercontent.com/deepimagej/models/master/u-net_pancreatic_segmentation/exampleImage.png" alt="result" align="middle" width="230">,-->
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/mu-lux_ctc_phc-c2dl-psc/cover.jpg" alt="result" align="middle" width="340">
-							</p>
-							<h5 style="line-height:20px;height:68px">F. Lux & P. Matula, <a href="https://arxiv.org/abs/2004.01607"><u>Cell Segmentation by Combining Marker-Controlled Watershed and Deep Learning</u></a>, arXiv, 2020.</h5>
-							<p><b>License</b>: free of charge for noncommercial and research purposes. You are expected to include adequate references whenever you present or publish results that are based on the resources provided.</p>
-							<h6><a href="https://gitlab.fi.muni.cz/xlux/deepwater" class="button icon fa-github">Code</a>
-							<a href="http://celltrackingchallenge.net/participants/MU-Lux-CZ/" class="button icon fa-info-circle">Cell tracking challenge Information</a></h6>
-							<h6></h6>
-							<footer>
-								<a href="https://zenodo.org/record/4155785/files/MU-Lux_CTC_PhC-C2DL-PSC.bioimage.io.model.zip?download=1" class="button special fit small icon fa-download">MU-Lux CTC submission PhC-C2DL-PSC cells</a>
-							</footer>
-							</header>
-							</div>
-						</article>
+					<div>
 					<!-- Mask RCNN -->
-						<a name="2"></a>
+						<a name="maskrcnn"></a>
 						<article style="margin-top:5px">
 						<div class="box">
 						<header>
@@ -97,7 +67,7 @@ https://drive.google.com/uc?id=1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR&export=download
 							<p>
 								<b>License</b>: MIT.
 								<br>
-								<a style="color:#D35400;font-weight: 600">THIS MODEL IS ONLY COMPATIBLE WITH</a> <a style="color:blue;font-weight: 600" href="beta_release.html">DEEPIMAGEJ-BETA</a>. It has pre- and post-processings written in Java.
+								<a style="color:#D35400;font-weight: 600">THIS MODEL IS ONLY COMPATIBLE WITH</a> <a style="color:blue;font-weight: 600" href="beta_release.html">DEEPIMAGEJ-2.1.</a>. It has pre- and post-processings written in Java.
 							</p>
 
 							<a href="https://github.com/matterport/Mask_RCNN" class="button icon fa-github">Code</a>
@@ -108,303 +78,6 @@ https://drive.google.com/uc?id=1PVUY2x_XRv7eSs0TAy3a8g74SC9IunKR&export=download
 							</header>
 							</div>
 						</article>
-					<!-- 2D U-Net pancreatic stem cell phase contrast segmentation -->
-						<a name="14"></a>
-						<article style="margin-top:5px">
-						<div class="box">
-						<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=UNet2DPancreaticSegmentation" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://github.com/deepimagej/models/releases/download/0.3/u-net_pancreatic_segmentation.zip">U-Net Pancreatic Segmentation</a></h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Binary segmentation - Phase contrast microscopy</h4>
-							<p><img src="https://raw.githubusercontent.com/deepimagej/models/master/u-net_pancreatic_segmentation/exampleImage.png" alt="result" align="middle" width="210">,
-							<img src="https://raw.githubusercontent.com/deepimagej/models/master/u-net_pancreatic_segmentation/resultImage.png" alt="result" align="middle" width="210"></p>
-								<h5 style="line-height:20px;height:68px">DeepImageJ & Ignacio Arganda-Carreras, EHU.</h5>
-								<!-- <h6><a href="https://colab.research.google.com/github/deepimagej/models/blob/master/u-net_pancreatic_segmentation/U_Net_PhC_C2DL_PSC_segmentation.ipynb" class="button icon fa-github">Google Colab</a></h6>-->
-								<p><b>License</b>: BSD-2</p>
-								<h6><a href="https://colab.research.google.com/github/deepimagej/models/blob/master/u-net_pancreatic_segmentation/U_Net_PhC_C2DL_PSC_segmentation.ipynb" rel="nofollow"><img src="https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" alt="Open In Colab" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg" style="max-width:100%;"></a></h6>
-								<footer>
-									<a href="https://github.com/deepimagej/models/releases/download/0.3/u-net_pancreatic_segmentation.zip" class="button special fit small icon fa-download">U-Net Pancreatic Segmentation</a>
-								</footer>
-							</header>	
-							</div>							
-						</article>
-
-						<!-- Exosomes -->
-						<a name="2"></a>
-						<article style="margin-top:5px">
-						<div class="box">
-						<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=FRUNet2DsEVSegmentation" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://zenodo.org/record/4156050/files/deepimagej_fru-net_sev_segmentation.zip?download=1">FRU-Net sEV Segmentation</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - TEM</h4>
-							<!--<img src="models/frunet/exampleImage_1.png" alt="a"  align="middle" width="230">,-->
-							<p>
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/fru-net_sev_segmentation/frunet_sev.jpg" alt="b"  align="middle" width="370">
-							</p>
-							<h5 style="line-height:20px;height:68px">Estibaliz Gómez-de-Mariscal et al., <a href="https://www.nature.com/articles/s41598-019-49431-3"><u>Deep-Learning-Based Segmentation of Small Extracellular Vesicles in Transmission Electron Microscopy Images</u></a>, Scientific Reports, 2019.</h5>
-							<p><b>License</b>: Free of charge for noncommercial and research purposes. You are expected to include adequate references whenever you present or publish results that are based on the resources provided.</p>
-							<h6><a href="https://cbia.fi.muni.cz/research/segmentation/fru-net" class="button icon fa-code">Code</a></h6>
-							<h6></h6>
-							<footer>
-								<a href="https://zenodo.org/record/4156050/files/deepimagej_fru-net_sev_segmentation.zip?download=1" class="button special fit small icon fa-download">FRU-Net sEV Segmentation</a>
-							</footer>
-						</header>
-						</div>
-						</article>
-
-						<!-- Hela cell segmentation -->
-						<a name="3"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-						<header>						
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=UNet2DHelaSegmentation" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://zenodo.org/record/4155785/files/deepimagej_u-net_hela_segmentation.zip?download=1">U-Net HeLa Segmentation</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - DIC microscopy</h4>
-							<p><!-- <img src="https://raw.githubusercontent.com/deepimagej/models/master/u-net_hela_segmentation/unet_hela_seg.jpg" alt="original"  align="middle" width="230">,-->
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/u-net_hela_segmentation/unet_hela_seg.jpg" alt="result" align="middle" width="460"></p>
-								<h5 style="line-height:20px;height:68px">João Luis Soares Lopes, Hela cell segmentation with U-Net, Biomedical Imaging Group, EPFL.</h5>
-								<p><b>License</b>: BSD-2</p>
-								<h6>
-									<a href="https://github.com/deepimagej/python4deepimagej/tree/master/unet" class="button icon fa-github">Code</a>
-									<a href="models_documentation.html" class="button icon fa-info-circle">More Information</a>
-								</h6>
-								<h6></h6>
-								<footer>
-									<a href="https://zenodo.org/record/4155785/files/deepimagej_u-net_hela_segmentation.zip?download=1" class="button special fit small icon fa-download">U-Net HeLa Segmentation</a>
-								</footer>
-						</header>
-							</div>							
-						</article>
-
-						<!-- Ozcan UCLA lab kidney -->
-						<a name="7"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-							<header>
-								<h3 style="margin-bottom:5px;font-weight:800">
-									<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=JonesVirtualStaining" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-									<a href="https://drive.google.com/uc?id=1sEZyweIyAgmvdMsgr9JSs-D9yPXCmbRf&export=download">Jones Virtual Staining</a>
-								</h3>
-								<h4 style="height:40px; line-height:21px; color:#333">Virtual labelling - Light transmission microscopy</h4>
-								<p>
-									<img src="https://raw.githubusercontent.com/deepimagej/models/master/jones_virtual_staining/exampleImage.png" alt="original"  align="middle" width="200">,
-									<img src="https://raw.githubusercontent.com/deepimagej/models/master/jones_virtual_staining/resultImage.png" alt="result" align="middle" width="200">
-								</p>
-								<h5 style="line-height:20px;height:68px">Yair Rivenson et al., <a href="https://www.nature.com/articles/s41551-019-0362-y"><u>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</u></a>, Nature Biomedical Engineering, 2019.</h5>
-								<p><b>License: </b>Creative Commons Attribution 4.0 International (CC BY 4.0) license. Further details at the publisher site.</p>
-								<h6><a href="https://github.com/whd0121/ImageJ-VirtualStain" class="button icon fa-github">Code</a></h6>
-								<h6></h6>
-								<footer>
-									<a href="https://drive.google.com/uc?id=1sEZyweIyAgmvdMsgr9JSs-D9yPXCmbRf&export=download" class="button special fit small icon fa-download">Jones Virtual Staining</a>
-								</footer>
-							</header>
-							</div>
-						</article>
-
-						<!-- Ozcan UCLA lab liver -->
-						<a name="8"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-							<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=Mt3VirtualStaining" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://drive.google.com/uc?id=1aKvaCbuezcRYE2VN86PBh7oYctMKRGyS&export=download">MT3 Virtual Staining</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Virtual labelling - Light transmission microscopy</h4>
-							<p><img src="https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/exampleImage.png" alt="original"  align="middle" width="200">,
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/mt3_virtual_staining/resultImage.png" alt="result" align="middle" width="200"></p>
-								<h5 style="line-height:20px;height:68px">Yair Rivenson et al., <a href="https://www.nature.com/articles/s41551-019-0362-y"><u>Virtual histological staining of unlabelled tissue-autofluorescence images via deep learning</u></a>, Nature Biomedical Engineering, 2019.</h5>
-								<p><b>License: </b>Creative Commons Attribution 4.0 International (CC BY 4.0) license. Further details at the publisher site.</p>
-								<h6><a href="https://github.com/whd0121/ImageJ-VirtualStain" class="button icon fa-github">Code</a></h6>
-								<h6></h6>
-								<footer>
-									<a href="https://drive.google.com/uc?id=1aKvaCbuezcRYE2VN86PBh7oYctMKRGyS&export=download" class="button special fit small icon fa-download">MT3 Virtual Staining</a>
-								</footer>
-							</header>
-							</div>
-						</article>
-						
-						<!-- Ozcan UCLA widefield TXRED -->
-						<a name="9"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-						<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=WidefieldTxredSuperResolution" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://drive.google.com/uc?id=1BPGyIJgmh7XLxKJAkIvQix6soVHRguq8&export=download">Widefield TxRed Super-resolution</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Super-resolution - Fluorescence microscopy</h4>
-							<p><img src="https://raw.githubusercontent.com/deepimagej/models/master/widefield_txred_super-resolution/exampleImage.png" alt="original"  align="middle" width="200">,
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/widefield_txred_super-resolution/resultImage.png" alt="result" align="middle" width="200"></p>
-								<h5 style="line-height:20px;height:68px">Hongda Wang et al., <a href="https://www.nature.com/articles/s41592-018-0239-0"><u>Deep learning enables cross-modality super-resolution in fluorescence microscopy</u></a>, Nature Methods, 2019.</h5>
-								<p><b>License: </b>Creative Commons Attribution 4.0 International (CC BY 4.0) license. Further details at the publisher site.</p>
-								<h6><a href="https://www.nature.com/articles/s41592-018-0239-0" class="button icon fa-info-circle">Trained models</a></h6>
-								<footer>
-									<a href="https://drive.google.com/uc?id=1BPGyIJgmh7XLxKJAkIvQix6soVHRguq8&export=download" class="button special fit small icon fa-download">Widefield TxRed Super-resolution</a>
-								</footer>
-							</header>	
-							</div>							
-						</article>
-						
-						<!-- Ozcan UCLA widefield DAPI -->
-						<a name="10"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-							<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=WidefieldDapiSuperResolution" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://drive.google.com/uc?id=10BpDjOKbYijtO8kW3tYLFOPPIowR2zqE&export=download">Widefield DAPI Super-resolution</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Super-resolution - Fluorescence microscopy</h4>
-							<p><img src="https://raw.githubusercontent.com/deepimagej/models/master/widefield_dapi_super-resolution/exampleImage.png" alt="original"  align="middle" width="200">,
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/widefield_dapi_super-resolution/resultImage.png" alt="result" align="middle" width="200"></p>
-								<h5 style="line-height:20px;height:68px">Hongda Wang et al., <a href="https://www.nature.com/articles/s41592-018-0239-0"><u>Deep learning enables cross-modality super-resolution in fluorescence microscopy</u></a>, Nature Methods, 2019.</h5>
-								<p><b>License: </b>Creative Commons Attribution 4.0 International (CC BY 4.0) license. Further details at the publisher site.</p>
-								<h6><a href="https://www.nature.com/articles/s41592-018-0239-0" class="button icon fa-info-circle">Trained models</a></h6>
-								<footer>
-									<a href="https://drive.google.com/uc?id=10BpDjOKbYijtO8kW3tYLFOPPIowR2zqE&export=download" class="button special fit small icon fa-download">Widefield DAPI Super-resolution</a>
-								</footer>
-							</header>
-							</div>
-						</article>
-						
-						<!-- Ozcan UCLA widefield FITC -->
-						<a name="11"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-						<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=WidefieldFitcSuperResolution" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://drive.google.com/uc?id=1CdSwMeP00cabqLivU9v6Q39W-jJW8cLP&export=download">Widefield FITC Super-resolution</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Super-resolution - Fluorescence microscopy</h4>
-							<p><img src="https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/exampleImage.png" alt="original"  align="middle" width="200">,
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/widefield_fitc_super-resolution/resultImage.png" alt="result" align="middle" width="200"></p>
-								<h5 style="line-height:20px;height:68px">Hongda Wang et al., <a href="https://www.nature.com/articles/s41592-018-0239-0"><u>Deep learning enables cross-modality super-resolution in fluorescence microscopy</u></a>, Nature Methods, 2019.</h5>
-								<p><b>License: </b>Creative Commons Attribution 4.0 International (CC BY 4.0) license. Further details at the publisher site.</p>
-								<h6><a href="https://www.nature.com/articles/s41592-018-0239-0" class="button icon fa-info-circle">Trained models</a></h6>
-								<footer>
-									<a href="https://drive.google.com/uc?id=1CdSwMeP00cabqLivU9v6Q39W-jJW8cLP&export=download" class="button special fit small icon fa-download">Widefield FITC Super-resolution</a>
-								</footer>
-							</header>	
-							</div>							
-						</article>
-						
-						<!-- Glio cell segmentation -->
-						<a name="12"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-						<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=UNet2DGlioblastomaSegmentation" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://zenodo.org/record/4155785/files/deepimagej_u-net_glioblastoma_segmentation.zip?download=1">U-Net Glioblastoma Segmentation</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - Phase contrast microscopy</h4>
-							<p><!--<img src="models/unet_glio/exampleImage.png" alt="original"  align="middle" width="230">,-->
-								<img src="https://raw.githubusercontent.com/deepimagej/models/master/u-net_glioblastoma_segmentation/cover_image.jpg" alt="result" align="middle" width="400"></p>
-								<h5 style="line-height:20px;height:68px">João Luis Soares Lopes, Glioblastoma cell segmentation with U-Net</em>, Biomedical Imaging Group, EPFL</h5>
-								<p><b>License</b>: BSD-2</p>
-								<h6>
-									<a href="https://github.com/deepimagej/python4deepimagej/tree/master/unet" class="button icon fa-github">Code</a>
-									<a href="models_documentation.html" class="button icon fa-info-circle">More Information</a>
-								</h6>
-								<h6></h6>
-								<footer>
-									<a href="https://zenodo.org/record/4155785/files/deepimagej_u-net_glioblastoma_segmentation.zip?download=1" class="button special fit small icon fa-download">U-Net Glioblastoma Segmentation</a>
-								</footer>
-							</header>	
-							</div>
-						</article>
-						
-						<!-- DEFCoN-->
-						<a name="13"></a>
-						<article style="margin-top:50px">
-						<div class="box">
-						<header>
-							<h3 style="margin-bottom:5px;font-weight:800">
-								<a href="https://bioimage.io/#/?partner=deepimagej&type=all&id=DEFCoN_DensityMapEstimation" target="_blank"><span class="bioimage-icon" style="font-size:2rem;">🦒</span></a>
-								<a href="https://zenodo.org/record/4269855/files/deepimagej_defcon_density_map_estimation.zip?download=1">DEFCoN density map estimation</a>
-							</h3>
-							<h4 style="height:40px; line-height:21px; color:#333">Density estimation - Single molecule localization microscopy</h4>
-							<p><img src="https://raw.githubusercontent.com/deepimagej/models/master/defcon_density_map_estimation/cover_image.jpg" alt="original"  align="middle" width="350"></p>
-<!--								<img src="models/defcon/resultImage.png" alt="result" align="middle" width="230">-->
-								<h5 style="line-height:20px;height:68px">Baptiste Ottino, Kyle M. Douglass and Suliana Manley, </em>, Laboratory of Experimental Biophysics, EPFL</h5>
-								<p><b>License: </b> BSD-3</p>
-								<h6><a href="https://github.com/LEB-EPFL/DEFCoN" class="button icon fa-info-circle">More Information</a></h6>
-								<footer>
-									<a href="https://zenodo.org/record/4269855/files/deepimagej_defcon_density_map_estimation.zip?download=1" class="button special fit small icon fa-download">DEFCoN density map estimation</a>
-								</footer>
-							</header>
-							</div>
-						</article>
-						<!--					&lt;!&ndash; Usiigaci &ndash;&gt;-->
-<!--						<a name="1"></a>-->
-<!--						<article style="margin-top:5px">-->
-<!--						<div class="box">-->
-<!--						<header>-->
-<!--							<h3 style="margin-bottom:5px;font-weight:800">-->
-<!--								<a href="https://zenodo.org/record/4155785/files/usiigaci.bioimage.io.model.zip?download=1">Usiigaci (Mask R-CNN - TensorFlow)</a></h3>-->
-<!--							<h4 style="height:40px; line-height:21px; color:#333">Instance segmentation - Phase contrast microscopy</h4>-->
-<!--							<p>-->
-<!--								<img src="models/usiigaci/cover.jpg" alt="result" align="middle" width="400">-->
-<!--							</p>-->
-<!--							<h5 style="line-height:20px;height:68px">Hsieh-Fu Tsai, et al. <a href="https://doi.org/10.1016/j.softx.2019.02.007"><u>Usiigaci: Instance-aware cell tracking in stain-free phase contrast microscopy enabled by machine learning</u></a>, SoftwareX, 2019.</h5>-->
-<!--							<p>-->
-<!--								This model convines Java and ImageJ macros in the pre- and post-processings.-->
-<!--							</p>-->
-<!--							<a href="https://github.com/oist/Usiigaci" class="button icon fa-github">Code</a>-->
-<!--							<h6></h6>-->
-<!--							<footer>-->
-<!--								<a href="https://zenodo.org/record/4155785/files/usiigaci.bioimage.io.model.zip?download=1" class="button special fit small icon fa-download">Usiigaci (Mask R-CNN - TensorFlow)</a>-->
-<!--							</footer>-->
-<!--							</header>-->
-<!--							</div>-->
-<!--						</article>-->
-					<!-- 3D U-Net -->
-<!--						<a name="4"></a>-->
-<!--						<article style="margin-top:5px">-->
-<!--						<div class="box">-->
-<!--						<header>-->
-<!--							<h3 style="margin-bottom:5px;font-weight:800">-->
-<!--								<a href="https://zenodo.org/record/4155785/files/DeepImageJ_3DUNet_ZeroCostDL4Mic.bioimage.io.model.zip?download=1">3D U-Net for mitochondria segmentation (TensorFlow)</a></h3>-->
-<!--							<h4 style="height:40px; line-height:21px; color:#333">Image segmentation - TEM images</h4>-->
-<!--							<p>-->
-<!--								<img src="models/3dunet/exampleImage.gif" alt="result" align="middle" width="360">-->
-<!--							</p>-->
-<!--							<h5 style="line-height:20px;height:68px">L. von Chamier et al., <a href="https://www.biorxiv.org/content/10.1101/2020.03.20.000133v3"><u>ZeroCostDL4Mic: an open platform to use Deep-Learning in Microscopy</u></a>, bioRxiv, 2020.</h5>-->
-<!--								<a href="https://github.com/HenriquesLab/ZeroCostDL4Mic/blob/master/Colab_notebooks/U-Net_3D_ZeroCostDL4Mic.ipynb" class="button icon fa-github">Code</a>-->
-<!--							<h6></h6>-->
-<!--							<footer>-->
-<!--								<a href="https://zenodo.org/record/4155785/files/DeepImageJ_3DUNet_ZeroCostDL4Mic.bioimage.io.model.zip?download=1" class="button special fit small icon fa-download">3D U-Net for mitochondria segmentation (TensorFlow)</a>-->
-<!--							</footer>-->
-<!--							</header>-->
-<!--							</div>-->
-<!--						</article>-->
-					<!-- Skin Lessions -->
-<!--					<a name="3"></a>-->
-<!--						<article style="margin-top:5px">-->
-<!--						<div class="box">-->
-<!--						<header>-->
-<!--							<h3 style="margin-bottom:5px;font-weight:800">-->
-<!--								<a href="https://zenodo.org/record/4155785/files/SkinLesions.bioimage.io.model.zip?download=1">Skin lesion classification (PyTorch)</a></h3>-->
-<!--							<h4 style="height:40px; line-height:21px; color:#333">Image classification - RGB skin images</h4>-->
-<!--							<p>-->
-<!--								<img src="models/skinlessions/exampleImage.jpg" alt="result" align="middle" width="360">-->
-<!--							</p>-->
-<!--							<a href="https://gist.github.com/esgomezm/7398a83321ae589bafadb0392c7b78ef#file-skin_lession_classification_pytorch_original-ipynb" class="button icon fa-github">Notebook</a>-->
-<!--							<h6></h6>-->
-<!--							<footer>-->
-<!--								<a href="https://zenodo.org/record/4155785/files/SkinLesions.bioimage.io.model.zip?download=1" class="button special fit small icon fa-download">Skin lesion classification (PyTorch)</a>-->
-<!--							</footer>-->
-<!--							</header>-->
-<!--							</div>-->
-<!--						</article>-->
-						
 					</div>
 				</div>
 			</section>
