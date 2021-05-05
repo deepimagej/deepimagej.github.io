@@ -78,7 +78,7 @@
 						<article>
 							<header>
 								<h4 style="width:240px;margin:0px"><a href="download.html" class="button fit icon fa-download">Install deepImageJ</a></h4>
-								<div style="width:240px;padding:0px;margin:0x;line-height:10px;text-align:center;vertical-align: middle;">version 2.1.8</div>
+								<div style="width:240px;padding:0px;margin:0x;line-height:10px;text-align:center;vertical-align: middle;">version 2.1.</div>
 							</header>
 						</article>
 						<article>
@@ -104,7 +104,7 @@
 				<div style="height:30px"></div>
 				<hr />
 				<br />
-				<h3 style="font-weight:bold">DeepImageJ Models</h3>
+				<h3 style="font-weight:bold">DeepImageJ trained models</h3>
 				<div id="mixedSlider">
 					<div class="MS-content" style="background-color:transparent">
 					
@@ -197,8 +197,7 @@
 			<div class="inner" style="padding: 0px">
 					<p style="margin-top:20px" class="align-justified">
 					A first selection of state-of-the-art models from various groups has been made 
-					available in an <a href="models.html"><u>online repository</u></a>. 
-					Beyond its direct use, we expect deepImageJ to contribute to the spread and
+					available in the <a href="https://bioimage.io/" target="_blank"><u>BioImage Model Zoo</u></a>. Beyond its direct use, we expect deepImageJ to contribute to the spread and
 					validation of deep learning models in life-science applications.
 					</p>
 					<hr /> <br />
@@ -206,6 +205,17 @@
 			<div class="inner" style="padding: 0px">
 				<div class="row">
 					<div class="8u 9u$(small)">
+						<div class="inner" id="new-functionalities">
+							<!-- New functionalities -->
+							<h3 style="font-weight:bold;margin-bottom:10px">New functionalities of deepImageJ 2.1 </h3>
+							<ul style="margin-left:30px">
+								<li>DeepImageJ is a compatible consumer of the trained models in the <a href="https://bioimage.io">BioImage Model Zoo<span class="bioimage-icon" style="font-size:2rem;width:100%;text-align:center;">🦒</span></a>.</li>
+								<li>From <b>image-to-image</b> in 2D to <b>image-to-any</b>: 3D image processing, image classification, object detection and instance segmentation.</li>
+								<li>GPU support.</li>
+								<li>Compatibility with PyTorch for the first time in ImageJ/Fiji.</li>
+								<li>Support new formats for pre- and post-processing: ImageJ macros and Java.</li>
+							</ul>
+						</div>
 						<div class="inner" id="references" style="padding: 0px">
 							<!-- References -->
 							<h3 style="font-weight:bold;margin-bottom:10px">References</h3>
@@ -220,16 +230,6 @@
 							<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script><div data-badge-details="right" data-badge-type="medium-donut" data-doi=" https://doi.org/10.1101/799270" class="altmetric-embed"></div>
 							<hr /> <br />
 						</div>
-						<div class="inner" id="the_project">
-						<!-- The project -->
-							<h3 style="font-weight:bold;margin-bottom:10px">The project</h3>
-							<p class="align-justified"> The concept consists on bundling a trained TensorFlow model to additional information, so it can be used in ImageJ/Fiji as a standard plugin.</p>
-							<span class="align-justified">
-								<img src="images/concept.png" style="width:55%" alt=""/>
-								<iframe width="320" height="228" src="https://www.youtube.com/embed/5CIhD9JrHhU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-							</span>
-							<hr /><br />
-						</div>
 						<div class="inner" id="faq">
 						<!-- FAQ -->
 							<h3 style="font-weight:bold;margin-bottom:10px">FAQ</h3>
@@ -237,17 +237,7 @@
 							You will find already an extended Q&A post about Machine Learning and deepImageJ: <a href="https://forum.image.sc/t/neubias-academy-home-webinar-machine-learning-deep-learning-deepimagej-questions-answers/36962" target="_blank">[NEUBIAS Academy@Home] Webinar “Machine Learning/Deep Learning/DeepImageJ” + QUESTIONS & ANSWERS </a>. </p>
 							<hr /><br />
 						</div>
-						<div class="inner" id="new-functionalities">
-							<!-- New functionalities -->
-							<h3 style="font-weight:bold;margin-bottom:10px">New functionalities of deepImageJ 2.1.8 </h3>
-							<ul style="margin-left:30px">
-								<li>From Image2image in 2D to image2any: deepImageJ 2.1.8 runs models defined for 3D image processing, image classification or object detection through region proposal networks. It deals with miscellaneous output formats and shapes.</li>
-								<li>GPU support.</li>
-								<li>Compatibility with PyTorch: All PyTorch models stored as TorchScript can be for the first time loaded into ImageJ/Fiji through deepImageJ.</li>
-								<li>New formats for image pre and post-processing: ImageJ macros (.txt/.ijm) and Java code&classes (.jar/.class) are supported and can be combined.</li>
-								<li>Compatibility with the <a href="https://bioimage.io">Bioimage Model Zoo<span class="bioimage-icon" style="font-size:2rem;width:100%;text-align:center;">🦒</span></a>: deepImageJ is a consumers of the trained models in the <a href="https://bioimage.io/">BioImage Model Zoo</a></li>
-							</ul>
-						</div>
+						
 						<div class="inner" id="cross-compatibility">
 						<!-- Coming soon -->
 							<h3 style="font-weight:bold;margin-bottom:10px">Connections with deepImageJ:</h3>
@@ -255,7 +245,7 @@
 								<li><a href="https://github.com/HenriquesLab/ZeroCostDL4Mic/wiki" target="_blank">ZeroCostDL4Mic</a> notebooks: 2D U-Net and DeepSTORM</li>
 								<li><a href="https://yapic.github.io/yapic/tutorial_deepimagej.html" target="_blank">YAPIC</a></li>
 								<li><a href="https://imjoy.io/#/" target="_blank">ImJoy</a></li>
-								<li><a href="https://bioimage.io">Bioimage Model Zoo<span class="bioimage-icon" style="font-size:1rem;width:20%;text-align:center;">🦒</span></a></li>
+								<li><a href="https://bioimage.io">BioImage Model Zoo<span class="bioimage-icon" style="font-size:1rem;width:20%;text-align:center;">🦒</span></a></li>
 							</ul>
 							<hr /><br />
 						</div>
@@ -284,8 +274,17 @@
 					</div>	<!-- clossing of class="9u 10u$(small)" -->
 					<div class="3u 12u$(small)">
 						<!-- NEWS -->
+						
 						<div class="inner" id="news-social-media">
 							<h3 style="font-weight:bold;font-size:23px;margin-bottom:6px">News & Social media</h3>
+							
+							<div id="user_guide">
+								
+								<video width=360  height=250 controls poster="video/image2.png" id="tutorial-video">
+									<source src="video/dij2_LOW.mp4" type="video/mp4">
+									<br />
+								</video>
+							</div>
 							<a href="https://twitter.com/intent/tweet?button_hashtag=DeepImageJ&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #deepImageJ</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 							<br>
 							<!-- Scroll bar for all the news -->
