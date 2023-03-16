@@ -7,7 +7,7 @@
 -->
 # DeepImageJ
 
-<img src="https://github.com/deepimagej/deepimagej/raw/master/images/deepImageJ.png" align="right" width="600"/>
+<img src="images\deepImageJ.png" align="right" width="600"/>
 
 ### The ImageJ plugin to run deep-learning models
 
