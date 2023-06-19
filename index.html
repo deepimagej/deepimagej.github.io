@@ -153,7 +153,7 @@
 
 								<h4 style="width:240px;margin:0px"><a href="download.html" class="button fit icon fa-download">Install deepImageJ</a></h4>
 
-								<div style="width:240px;padding:0px;margin:0x;line-height:10px;text-align:center;vertical-align: middle;">version 2.1.</div>
+								<div style="width:240px;padding:0px;margin:0x;line-height:10px;text-align:center;vertical-align: middle;">version 3.0</div>
 
 							</header>
 
@@ -411,21 +411,87 @@
 
 							<!-- New functionalities -->
 
-							<h3 style="font-weight:bold;margin-bottom:10px">New functionalities of deepImageJ 2.1 </h3>
+							<h3 style="font-weight:bold;margin-bottom:10px">New functionalities of deepImageJ 3.0</h3>
 
 							<ul style="margin-left:30px">
 
-								<li>DeepImageJ is a compatible consumer of the trained models in the <a href="https://bioimage.io">BioImage Model Zoo</a>.</li>
+								<li>Thanks to the Java Deep Learning Library (JDLL), on-the-fly installation of the DL engines in ImageJ/Fiji</li>
 
-								<li>From <b>image-to-image</b> in 2D to <b>image-to-any</b>: 3D image processing, image classification, object detection and instance segmentation.</li>
+								<li>This new version of deepImageJ allows the creation of image analysis pipelines with multiple Deep Learning steps, using different frameworks</li>
 
-								<li>GPU support (for Linux Machine.</li>
+								<li>The connection between all models from the Bioimage Model Zoo and Fiji is ensured from now on.</li>
 
-								<li>Compatibility with PyTorch for the first time in ImageJ/Fiji.</li>
+								<li>The prediction on deepImageJ 3.0 is usually faster than deepImageJ 2</li>
 
-								<li>Support new formats for pre- and post-processing: ImageJ macros and Java.</li>
+								<li>Thanks to <a href="https://docs.enlightenment.org/api/imlib2/html/" target="_blank"><u>ImLib2</u></a>, deepImageJ 3.0 handles larger images</li>  
+								
+								<li>DeepImageJ 3.0 Compatibility here:</li>
 
-
+							
+								<br>
+								<style type="text/css">
+									.tg  {border-collapse:collapse;border-color:#ccc;border-spacing:0;}
+									.tg td{background-color:#fff;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+									font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+									.tg th{background-color:#f0f0f0;border-color:#ccc;border-style:solid;border-width:1px;color:#333;
+									font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+									.tg .tg-1wig{font-weight:bold;text-align:left;vertical-align:top}
+									.tg .tg-baqh{text-align:center;vertical-align:top}
+									.tg .tg-y6fn{background-color:#c0c0c0;text-align:left;vertical-align:top}
+									.tg .tg-6qw1{background-color:#c0c0c0;text-align:center;vertical-align:top}
+								</style>
+								<table class="tg">
+								<thead>
+								<tr>
+									<th class="tg-y6fn">Prediction</th>
+									<th class="tg-6qw1">Pytorch 1</th>
+									<th class="tg-6qw1">Pytorch 2</th>
+									<th class="tg-6qw1">Tensorflow 1</th>
+									<th class="tg-6qw1">Tensorflow 2</th>
+									<th class="tg-6qw1">ONNX</th>
+								</tr>
+								</thead>
+								<tbody>
+								<tr>
+									<td class="tg-1wig">Linux</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes</td>
+								</tr>
+								<tr>
+									<td class="tg-1wig">Windows</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes *GPU</td>
+									<td class="tg-baqh">Yes</td>
+								</tr>
+								<tr>
+									<td class="tg-1wig">Mac Intel Chip x86_64</td>
+									<td class="tg-baqh">Yes</td>
+									<td class="tg-baqh">Yes</td>
+									<td class="tg-baqh">Yes</td>
+									<td class="tg-baqh">Yes *Access</td>
+									<td class="tg-baqh">Yes</td>
+								</tr>
+								<tr>
+									<td class="tg-1wig">Mac M1/M2 arm64</td>
+									<td class="tg-baqh">Yes</td>
+									<td class="tg-baqh">Not yet</td>
+									<td class="tg-baqh">Never</td>
+									<td class="tg-baqh">Not yet *Java8</td>
+									<td class="tg-baqh">Yes</td>
+								</tr>
+								</tbody>
+								</table>
+							
+								<strong><u>Notes</u></strong><br>
+								<strong>*GPU:</strong> Use GPU if everything is well configured on the machine.<br>
+								<strong>*Access:</strong> Allow to access to File and Folder (Privacy Settings).<br>
+								<strong>*Java8</strong> It can't work while Fiji is running on JVM java 8! One need to wait for an update of Fiji.<br>
+								
 
 							<!-- Video -->
 
