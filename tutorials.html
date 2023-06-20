@@ -40,29 +40,27 @@
 						<h2>Tutorials</h2>
 					</header>	
 					<div id="first-contact">
-						<h3>First contact with deepImageJ 2.1</h3>
-						If it is the first time that you are using deepImageJ or you've just installed the latest version of it, we recommend you the following super easy steps:
-						<h5>Try a model direclty in ImageJ</h5>
+						<h3>Documentation for deepImageJ</h3>
+						All the technical documentation can be found in <a href="https://github.com/deepimagej/deepimagej-plugin/wiki" target="_blank" style="color:blue">deepImageJ's wiki</a>.
+						It will guide you through:
 						<ul>
-							<li>Click on DeepImageJ Install, and install one of the suggested models compatible with deepImageJ from the list. This list refers to all the models in the BioImage Model Zoo. The ones compatible whit deepImageJ are marked in green. There's no need to restart Fiji once the model is installed.</li>
-							<li>Once the model is installed, you can find a demo image (tif) in the folder created at Fiji/models. </li>
-							<li>Open the image in ImageJ and process it with deepImageJ (DeepImageJ Run).</li>
+							<li><a href="https://github.com/deepimagej/deepimagej-plugin/wiki#technical-requirements-for-DeepImageJ" target="_blank" style="color:blue">Technical requirements to use deepImageJ</a>.</li>
+							<li>How to create or export deep learning <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/PyTorch-models" target="_blank" style="color:blue">PyTorch</a> or <a href="https://github.com/deepimagej/deepimagej-plugin/wiki/TensorFlow-models#tensorflow-models-in-deepimagej" target="_blank" style="color:blue">TensorFlow</a> models to be compatible with deepImageJ?</li>
+							<li><a href="https://github.com/deepimagej/deepimagej-plugin/wiki/GPU-connection" target="_blank" style="color:blue">How can I connect with a GPU</a>?</li>
+						</ul>
+
+						<h5>How to run a model in deepImageJ?</h5>
+						<ul>
+							<li>Click on DeepImageJ Install, and install one of the suggested models compatible with deepImageJ from the BioImage Model Zoo list. There's no need to restart Fiji once the model is installed.</li>
+							<li>Once the model is installed (the installing pop up window closes), you can close the window.</li>
+							<li>Click on DeepImageJ Run. Choose the recently installed model and click on Run on Test Image. To process and image, follow the same steps but click on Accept rather than on Run on a test image.</li>
 						</ul>
 						
-						<h5>Try a model from the <a href="https://bioimage.io/#/?partner=deepimagej&type=model" target="_blank" style="color:blue">BioImage Model Zoo</a></h5>
+						<h5>Try to install a model from a zip file.</h5>
+						Here we show an example with a model downloaded from the <a href="https://bioimage.io/#/?partner=deepimagej&type=model" target="_blank" style="color:blue">BioImage Model Zoo</a>, but you can repeat the process with any other private model that follows the specifications of the zoo and is compatible with deepImageJ.
+
 						<iframe width="560" height="315" src="https://www.youtube.com/embed/1PBUDUF7MUM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-						
-						<h5>Do you want to create your own model package compatible with the BioImage Model Zoo?</h5>
-						<p>If you are familiarized with deep learning models and architectures, this shouldn't be too difficult.</p>
-						<ul>
-							<li>Download a deepImageJ model from the <a href="https://bioimage.io/#/?partner=deepimagej&type=model" target="_blank">BioImage Model Zoo</a>. You will (re)build the bundled model yourself with DeepImageJ Build Bundled Model. </li>
-							<li>This step assumes that you are using a "raw Python model".</li>
-							<li>Go to the zip file you just downloaded and extract the zip called "tensorflow_saved_model_bundle.zip". This will result in a "saved_model.pb" and a "variables" folder. </li>
-							<li>Run DeepImageJ Build Bundled Model.</li>
-							<li>Drag&drop the folder containing saved_model.pb and a variables folder (it doesn't matter if there are other files). </li>
-							<li>Follow the steps of the user guide. As you are not the model creator you may need to check some parameters in the file called model.yaml in the zip file that you downloaded. </li>
-							<li>The pre- and post-processing files and example data are also in that zip file.  </li>
-						</ul>
+
 						<h5>DeepImageJ Run is macro recordable!</h5>
 						<ul>
 							<li>Start the macro recorder.</li>
